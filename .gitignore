@@ -24,7 +24,10 @@ dist-ssr
 *.sw?
 
 # Large media files exceeding GitHub 100MB limit
-*.mp4
 *.mkv
-public/videos/*
+*.bak
+public/videos/*.bak
+!public/videos/project_demo.mp4
 !public/videos/.gitkeep
+
+.vercel

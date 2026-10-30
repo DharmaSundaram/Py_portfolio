@@ -1,0 +1,5 @@
+# Large media files exceeding Vercel 100MB limit
+*.mp4
+*.mkv
+public/videos/*
+!public/videos/.gitkeep

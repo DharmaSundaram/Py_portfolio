@@ -453,6 +453,18 @@ export const NOTEBOOK_PYTHON_TOPICS = [
     notes: 'Developed in response to Sharmila Banu Mam\'s theory class challenge on helping impaired persons. Connects Python array operations with biomedical cortical prosthetics.',
     skillsDemonstrated: 'NumPy array processing, discrete matrix mapping, edge extraction, bio-computational modeling',
     relatedAchievementId: 'nb-theory-impaired-01'
+  },
+  {
+    id: 'topic-tree-canopy-pandas',
+    name: 'Urban Tree Canopy Analytics: Pandas Pivot Table, Multi-Metric Aggregations & Distribution Statistics',
+    status: 'Mastered',
+    source: 'Visual Capitalist / MIT Treepedia Global Dataset Study',
+    description: 'Applied Python Pandas operations on the 34 global cities urban canopy dataset: ranked city overview, multi-level continental pivot table aggregation (count, mean, median, std, min, max), 5-number descriptive statistics, interquartile range (IQR), skewness, and frequency distribution binning.',
+    relatedTask: 'Global Urban Tree Coverage Study (Ranked Overview, Continental Pivot, Statistics)',
+    codeSnippet: 'import pandas as pd\n\n# Continental Pivot Table with multi-metric aggregation\npivot_df = pd.pivot_table(\n    df,\n    index="continent",\n    values="gvi",\n    aggfunc=["count", "mean", "median", "std", "min", "max"]\n).round(2)\n\n# 5-Number Summary & Distribution Metrics\nstats = df["gvi"].describe().round(2)\niqr = df["gvi"].quantile(0.75) - df["gvi"].quantile(0.25)\nprint(f"Global Canopy Mean: {df[\'gvi\'].mean():.2f}% | Median: {df[\'gvi\'].median():.2f}% | IQR: {iqr:.2f}%")',
+    notes: 'Analyzing 34 worldwide metropolitan areas using Green View Index (GVI) derived from Google Street View panoramic imagery.',
+    skillsDemonstrated: 'Pandas pivot_table, multi-metric aggregation, quantile calculations, statistical distributions, Recharts integration',
+    relatedAchievementId: null
   }
 ];
 

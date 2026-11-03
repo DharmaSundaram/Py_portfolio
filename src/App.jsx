@@ -13,6 +13,7 @@ import WhyStarsSection from './components/why-stars/WhyStarsSection';
 import LearningJourneySection from './components/learning/LearningJourneySection';
 import TopicModal from './components/learning/TopicModal';
 import FacultyRecognitionSection from './components/faculty/FacultyRecognitionSection';
+import UrbanTreeCoverageSection from './components/analytics/UrbanTreeCoverageSection';
 import AnalyticsSection from './components/analytics/AnalyticsSection';
 import AboutMeSection from './components/about/AboutMeSection';
 import ProfileModal from './components/about/ProfileModal';
@@ -359,7 +360,10 @@ export default function App() {
             onViewEvidence={handleViewEvidence}
           />
 
-          {/* 8. Quantitative Analytics & Trends */}
+          {/* 8. Global Urban Tree Coverage Analytics (MIT Treepedia / Visual Capitalist Study) */}
+          <UrbanTreeCoverageSection />
+
+          {/* 9. Quantitative Analytics & Trends */}
           <AnalyticsSection
             achievements={achievements}
             topics={topics}

@@ -109,7 +109,18 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
 - Spotlight card celebrating the handwritten note: **“Good Job DHARMA!”**.
 - Highlights evaluation notes and direct link to notebook evidence.
 
-### 8. Quantitative Analytics
+### 8. Global Urban Tree Coverage Analytics (Visual Capitalist & MIT Treepedia)
+- In-depth data analysis study based on [Visual Capitalist: Ranked: The World's Cities with the Most Tree Coverage](https://www.visualcapitalist.com/ranked-the-worlds-cities-with-the-most-tree-coverage/) using MIT Treepedia's Green View Index (GVI).
+- **Ranked City Overview**:
+  - Full 34 global cities dataset analyzed from Tampa (#1 at 36.1%) to Paris (#34 at 8.8%).
+  - Search filter, continent pill selectors, sorting by Rank, GVI %, or City Name, and canopy tier badges.
+- **Continental Pivot Summary**:
+  - Interactive Recharts bar visualization and `pd.pivot_table` matrix computing `count`, `mean`, `median`, `std`, `min`, `max`, and highest-ranked city across all 6 continents.
+- **Statistical Analysis & Distribution**:
+  - 5-number descriptive statistics ($N=34$, $\mu=19.83\%$, $\text{Median}=19.75\%$, $\sigma=6.43\%$, $\text{IQR}=9.25\%$, Min $8.8\%$, Max $36.1\%$).
+  - Binned canopy distribution bars and copyable Python Pandas script.
+
+### 9. Quantitative Analytics
 - **Cumulative Star Growth** over time (AreaChart).
 - **Category Distribution** (Donut / PieChart).
 - **Star Magnitude Frequency** (BarChart).

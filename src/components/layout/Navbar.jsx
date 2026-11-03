@@ -16,7 +16,7 @@ export default function Navbar({
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'evidence', 'project-demo', 'assistive-vision', 'achievements', 'timeline', 'why-stars', 'skills', 'faculty', 'analytics', 'about'];
+      const sections = ['home', 'evidence', 'project-demo', 'assistive-vision', 'achievements', 'timeline', 'why-stars', 'skills', 'faculty', 'tree-coverage', 'analytics', 'about'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -46,6 +46,7 @@ export default function Navbar({
     { id: 'why-stars', label: 'Why Stars' },
     { id: 'skills', label: 'Python Notes' },
     { id: 'faculty', label: 'Sharmila Banu Mam' },
+    { id: 'tree-coverage', label: 'Tree Coverage' },
     { id: 'analytics', label: 'Analytics' },
     { id: 'about', label: 'About Me' }
   ];

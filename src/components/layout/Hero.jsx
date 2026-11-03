@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Award, CheckCircle2, TrendingUp, Edit3, ArrowDown, Sparkles, BookOpen, User, AlertCircle, Camera, Video, Play, Eye } from 'lucide-react';
+import { Star, Award, CheckCircle2, TrendingUp, Edit3, ArrowDown, Sparkles, BookOpen, User, AlertCircle, Camera, Video, Play, Eye, Trees } from 'lucide-react';
 
 export default function Hero({
   profile,
@@ -219,6 +219,14 @@ export default function Hero({
           >
             <Eye className="w-4 h-4 text-purple-400" />
             <span>Theory Vision Solution</span>
+          </a>
+
+          <a
+            href="#tree-coverage"
+            className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-emerald-300 hover:text-white glass-panel hover:bg-emerald-500/20 border border-emerald-500/40 transition-all flex items-center gap-2 shadow-lg shadow-emerald-500/10"
+          >
+            <Trees className="w-4 h-4 text-emerald-400" />
+            <span>Tree Coverage Study</span>
           </a>
 
           <a

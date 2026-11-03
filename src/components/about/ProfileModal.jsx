@@ -119,7 +119,7 @@ export default function ProfileModal({
                 type="text"
                 value={formData.course}
                 onChange={e => setFormData({ ...formData, course: e.target.value })}
-                placeholder="e.g., Python Programming"
+                placeholder="e.g., Advance Python Programming"
                 className="w-full px-4 py-2.5 rounded-xl bg-white/[0.04] border border-white/10 text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-400/40"
               />
             </div>

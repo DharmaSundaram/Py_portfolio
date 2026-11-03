@@ -93,7 +93,7 @@ export default function AchievementGallery({
               My Star Achievements
             </h2>
             <p className="text-slate-400 text-sm sm:text-base mt-2 max-w-xl">
-              Authentic record of stars awarded by Sharmila Banu Mam (signed <span className="font-mono text-amber-300">JSh</span>), physical star stickers, and verified Python tasks.
+              Authentic record of stars awarded by Sharmila Banu Mam, physical star stickers, and verified Python tasks.
             </p>
           </div>
 

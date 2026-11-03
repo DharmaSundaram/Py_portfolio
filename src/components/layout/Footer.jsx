@@ -27,7 +27,7 @@ export default function Footer({
               </div>
               <div>
                 <span className="font-heading font-extrabold text-white text-base block">
-                  {profile.name}'s Python Achievement Portfolio
+                  {profile.name}'s Advance Python Achievement Portfolio
                 </span>
                 <span className="text-xs text-amber-300 font-mono flex items-center gap-1.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
@@ -37,7 +37,7 @@ export default function Footer({
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Authentic record of star evaluations from Sharmila Banu Mam, handwritten commendation <span className="text-amber-300 font-bold">"Good Job DHARMA!"</span>, and Pandas/Python programming notes from semester notebook records.
+              Authentic record of star evaluations from Sharmila Banu Mam, handwritten commendation <span className="text-amber-300 font-bold">"Good Job DHARMA!"</span>, and Pandas/Advance Python programming notes from semester notebook records.
             </p>
 
             <div className="flex items-center gap-3 pt-1">
@@ -90,6 +90,12 @@ export default function Footer({
               </li>
               <li>
                 <a href="#faculty" className="hover:text-amber-300 transition-colors">Sharmila Banu Mam Recognition</a>
+              </li>
+              <li>
+                <a href="#sweet-memories" className="hover:text-pink-300 transition-colors flex items-center gap-1 text-pink-300/90">
+                  <Heart className="w-3 h-3 text-pink-400" />
+                  <span>Sweet Memories</span>
+                </a>
               </li>
               <li>
                 <a href="#analytics" className="hover:text-amber-300 transition-colors">Analytics & Distribution</a>
@@ -166,7 +172,7 @@ export default function Footer({
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            © {new Date().getFullYear()} {profile.name} • Python Programming Course Star Achievement Portfolio •{' '}
+            © {new Date().getFullYear()} {profile.name} • Advance Python Programming Course Star Achievement Portfolio •{' '}
             <a
               href={profile?.githubUrl || "https://github.com/DharmaSundaram"}
               target="_blank"

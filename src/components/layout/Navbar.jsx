@@ -16,7 +16,7 @@ export default function Navbar({
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'evidence', 'project-demo', 'assistive-vision', 'achievements', 'timeline', 'why-stars', 'skills', 'faculty', 'tree-coverage', 'analytics', 'about'];
+      const sections = ['home', 'evidence', 'project-demo', 'assistive-vision', 'achievements', 'timeline', 'why-stars', 'skills', 'faculty', 'sweet-memories', 'tree-coverage', 'analytics', 'about'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -46,6 +46,7 @@ export default function Navbar({
     { id: 'why-stars', label: 'Why Stars' },
     { id: 'skills', label: 'Python Notes' },
     { id: 'faculty', label: 'Sharmila Banu Mam' },
+    { id: 'sweet-memories', label: 'Sweet Memories' },
     { id: 'tree-coverage', label: 'Tree Coverage' },
     { id: 'analytics', label: 'Analytics' },
     { id: 'about', label: 'About Me' }
@@ -85,14 +86,14 @@ export default function Navbar({
             </div>
             <div>
               <div className="font-heading font-extrabold text-lg tracking-tight text-white flex items-center gap-2">
-                <span>Dharma's Python Journey</span>
+                <span>Dharma's Advance Python Journey</span>
                 <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
                   {totalStars} ⭐
                 </span>
               </div>
               <div className="text-[11px] text-slate-400 font-mono tracking-wider uppercase flex items-center gap-1.5">
                 <CheckCircle2 className="w-3 h-3 text-emerald-400 inline" />
-                <span>Verified Notebook Star Portfolio</span>
+                <span>Verified Advance Python Notebook Portfolio</span>
               </div>
             </div>
           </button>

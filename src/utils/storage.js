@@ -69,6 +69,18 @@ export function getStoredAchievements() {
         updated.title = updated.title.replace('Faculty Commendation', 'Sharmila Banu Mam');
         hasChanged = true;
       }
+      if (updated.facultyFeedback && updated.facultyFeedback.includes('JSh')) {
+        updated.facultyFeedback = updated.facultyFeedback.replace(/with signature JSh/g, 'by Sharmila Banu Mam');
+        hasChanged = true;
+      }
+      if (updated.verificationNotes && updated.verificationNotes.includes('JSh')) {
+        updated.verificationNotes = updated.verificationNotes
+          .replace(/signature JSh \(Sharmila Banu Mam\)/g, 'Sharmila Banu Mam')
+          .replace(/Signed JSh \(Sharmila Banu Mam\)/g, 'Signed by Sharmila Banu Mam')
+          .replace(/signed JSh \(Sharmila Banu Mam\)/g, 'signed by Sharmila Banu Mam')
+          .replace(/JSh/g, 'Sharmila Banu Mam');
+        hasChanged = true;
+      }
       if (updated.facultyReason && (updated.facultyReason.includes('faculty') || updated.facultyReason.includes('Faculty'))) {
         updated.facultyReason = updated.facultyReason
           .replace(/by faculty/gi, 'by Sharmila Banu Mam')
@@ -122,13 +134,14 @@ export function getStoredProfile() {
     const updated = { 
       ...DHARMA_PROFILE, 
       ...saved,
+      course: (!saved.course || saved.course === 'Python Programming') ? 'Advance Python Programming' : saved.course,
       targetStars: DHARMA_PROFILE.targetStars,
       avatarUrl: saved.avatarUrl || DHARMA_PROFILE.avatarUrl || '/evidence/profile_picture.jpg',
       githubUrl: saved.githubUrl || DHARMA_PROFILE.githubUrl,
       mediumUrl: saved.mediumUrl || DHARMA_PROFILE.mediumUrl,
       mediumArticle: saved.mediumArticle || DHARMA_PROFILE.mediumArticle
     };
-    if (!saved.avatarUrl || !saved.githubUrl || !saved.mediumUrl || saved.targetStars !== DHARMA_PROFILE.targetStars) {
+    if (!saved.avatarUrl || !saved.githubUrl || !saved.mediumUrl || saved.course === 'Python Programming' || saved.targetStars !== DHARMA_PROFILE.targetStars) {
       safeSetItem(STORAGE_KEYS.PROFILE, updated);
     }
     return updated;

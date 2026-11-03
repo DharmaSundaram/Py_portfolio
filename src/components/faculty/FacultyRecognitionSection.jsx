@@ -19,7 +19,7 @@ export default function FacultyRecognitionSection({
             Sharmila Banu Mam Recognition
           </h2>
           <p className="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
-            Direct handwritten appreciation and feedback from Sharmila Banu Mam (signed <span className="font-mono text-amber-300 font-bold">JSh</span>), preserved directly from my notebook evaluations.
+            Direct handwritten appreciation and feedback from Sharmila Banu Mam, preserved directly from my notebook evaluations.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export default function FacultyRecognitionSection({
               </div>
 
               <p className="text-sm sm:text-base text-slate-200 leading-relaxed">
-                Handwritten in bold blue ink by Sharmila Banu Mam alongside signature <span className="text-amber-300 font-semibold font-mono">JSh</span> and awarded with <span className="text-emerald-400 font-bold">2 Stars</span> and <span className="text-emerald-400 font-bold">2 Green Gem Star Stickers</span> for exemplary lab execution and consistency.
+                Handwritten in bold blue ink by Sharmila Banu Mam and awarded with <span className="text-emerald-400 font-bold">2 Stars</span> and <span className="text-emerald-400 font-bold">2 Green Gem Star Stickers</span> for exemplary lab execution and consistency.
               </p>
 
               <div className="flex flex-wrap items-center gap-3 pt-2 text-xs">
@@ -110,7 +110,7 @@ export default function FacultyRecognitionSection({
               </h4>
 
               <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 text-xs sm:text-sm text-slate-200 italic">
-                "Handwritten 'Good!' with 2 ★s next to technical notes clarifying Cartesian Product and Cross Join behavior in Pandas merge(). Signed JSh."
+                "Handwritten 'Good!' with 2 ★s next to technical notes clarifying Cartesian Product and Cross Join behavior in Pandas merge(). Signed by Sharmila Banu Mam."
               </div>
 
               <div className="flex items-center gap-2 text-xs font-mono">
@@ -143,7 +143,7 @@ export default function FacultyRecognitionSection({
               </h4>
 
               <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 text-xs sm:text-sm text-slate-200 italic">
-                "Recognized for oral technical presentation: ': Tech Speech \'Podcast\'' communicating Python concepts to peers. Signed JSh."
+                "Recognized for oral technical presentation: ': Tech Speech \'Podcast\'' communicating Python concepts to peers. Signed by Sharmila Banu Mam."
               </div>
 
               <div className="flex items-center gap-2 text-xs font-mono">

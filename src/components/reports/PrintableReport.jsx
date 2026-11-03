@@ -87,7 +87,7 @@ export default function PrintableReport({
                 )}
                 <div>
                   <span className="text-xs font-mono uppercase tracking-widest text-slate-500 font-bold block mb-1">
-                    OFFICIAL PYTHON COURSE PORTFOLIO
+                    OFFICIAL ADVANCE PYTHON COURSE PORTFOLIO
                   </span>
                   <h1 className="text-3xl font-extrabold text-slate-950 tracking-tight">
                     {profile.name}
@@ -118,7 +118,7 @@ export default function PrintableReport({
                 Official Handwritten Commendation from Sharmila Banu Mam: "Good Job DHARMA!"
               </span>
               <span className="font-mono text-slate-600">
-                Signed by Sharmila Banu Mam (JSh) (09/09/2026)
+                Signed by Sharmila Banu Mam (09/09/2026)
               </span>
             </div>
           </div>
@@ -220,7 +220,7 @@ export default function PrintableReport({
 
           {/* Footer Sign-off */}
           <div className="pt-6 border-t-2 border-slate-900 flex items-center justify-between text-xs text-slate-500">
-            <span>Verified from Student Notebook Photographs (Faculty Signature: JSh)</span>
+            <span>Verified from Student Notebook Photographs (Faculty: Sharmila Banu Mam)</span>
             <span>Date Generated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
           </div>
         </div>

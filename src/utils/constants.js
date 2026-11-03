@@ -84,7 +84,7 @@ export const CATEGORIES = [
 
 export const DEFAULT_PROFILE = {
   name: '[YOUR NAME]',
-  course: 'Python Programming',
+  course: 'Advance Python Programming',
   institution: '[YOUR COLLEGE]',
   semester: '[YOUR SEMESTER]',
   academicYear: '[YOUR ACADEMIC YEAR]',

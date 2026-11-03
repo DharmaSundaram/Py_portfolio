@@ -4,7 +4,7 @@
  * Reference Evidence:
  * Photo 1: Primary Star Log & Handwritten Commendation from Sharmila Banu Mam "Good Job DHARMA!"
  * Photo 2: Python Learning Notes (Cartesian Product / Pandas Merge) & Tech Speech Podcast
- * Faculty Signature: JSh (Sharmila Banu Mam)
+ * Faculty: Sharmila Banu Mam
  */
 
 export const NOTEBOOK_EVIDENCE_PHOTOS = [
@@ -13,7 +13,7 @@ export const NOTEBOOK_EVIDENCE_PHOTOS = [
     title: 'Notebook Page 1: Semester Star Log & Sharmila Banu Mam Commendation',
     date: '2026-07-20 to 2026-09-09',
     imageUrl: '/evidence/notebook_stars_page1.png',
-    caption: 'Handwritten star awards with signature from Sharmila Banu Mam (JSh), 5 physical faceted star stickers (3 pink, 2 green), and the handwritten message: "Good Job DHARMA!".',
+    caption: 'Handwritten star awards with signature from Sharmila Banu Mam, 5 physical faceted star stickers (3 pink, 2 green), and the handwritten message: "Good Job DHARMA!".',
     recordsCovered: 6,
     starsCounted: 11,
     stickersCounted: 5,
@@ -25,7 +25,7 @@ export const NOTEBOOK_EVIDENCE_PHOTOS = [
     title: 'Notebook Page 2: Pandas Cartesian Product & Tech Speech Podcast',
     date: '2026-10-16',
     imageUrl: '/evidence/notebook_notes_page2.png',
-    caption: 'Handwritten notes on "Cartesian Product - when no column_ID is mentiond in merge -> Pandas / Cross join / JOIN -> DB" awarded 2 ★s with "Good!", plus 1 ★ for "Tech Speech Podcast". Signature JSh (Sharmila Banu Mam) dated 16/10/2026.',
+    caption: 'Handwritten notes on "Cartesian Product - when no column_ID is mentiond in merge -> Pandas / Cross join / JOIN -> DB" awarded 2 ★s with "Good!", plus 1 ★ for "Tech Speech Podcast". Signed by Sharmila Banu Mam dated 16/10/2026.',
     recordsCovered: 2,
     starsCounted: 3,
     stickersCounted: 0,
@@ -42,7 +42,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     stars: 1,
     facultyReason: 'Completed introductory Python programming task with correct logic and submission on the first lab review.',
     facultyName: 'Sharmila Banu Mam',
-    facultyFeedback: 'Drawn red star with signature JSh',
+    facultyFeedback: 'Drawn red star by Sharmila Banu Mam',
     relatedTask: 'Lab Assignment 1: Python Basics & Syntax Setup',
     pythonConcepts: ['Python Basics', 'Syntax', 'Variables'],
     category: 'Task Completion',
@@ -50,7 +50,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     learningReflection: 'First lab milestone of the semester, establishing a solid baseline for weekly coding practice.',
     imageUrl: '/evidence/notebook_stars_page1.png',
     isVerified: true,
-    verificationNotes: 'Handwritten red ink star and signature JSh (Sharmila Banu Mam) dated 20/7/2026 on Page 1.',
+    verificationNotes: 'Handwritten red ink star by Sharmila Banu Mam dated 20/7/2026 on Page 1.',
     stickers: 0,
     inkColor: 'Red ink',
     sourcePhotoId: 'photo-1'
@@ -62,7 +62,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     stars: 1,
     facultyReason: 'Executed conditional logic and looping task during the second weekly lab session.',
     facultyName: 'Sharmila Banu Mam',
-    facultyFeedback: 'Drawn blue star with signature JSh',
+    facultyFeedback: 'Drawn blue star by Sharmila Banu Mam',
     relatedTask: 'Lab Assignment 2: Conditional Statements & Loops',
     pythonConcepts: ['Conditionals', 'Loops', 'Control Flow'],
     category: 'Problem-Solving',
@@ -70,7 +70,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     learningReflection: 'Grasped the mechanics of nested conditions and avoiding infinite loop edge cases.',
     imageUrl: '/evidence/notebook_stars_page1.png',
     isVerified: true,
-    verificationNotes: 'Handwritten blue ink star and signature JSh (Sharmila Banu Mam) dated 23/7/2026 on Page 1.',
+    verificationNotes: 'Handwritten blue ink star by Sharmila Banu Mam dated 23/7/2026 on Page 1.',
     stickers: 0,
     inkColor: 'Blue ink',
     sourcePhotoId: 'photo-1'
@@ -82,7 +82,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     stars: 1,
     facultyReason: 'Successfully implemented modular function definitions with list/dictionary collections.',
     facultyName: 'Sharmila Banu Mam',
-    facultyFeedback: 'Drawn black star with signature JSh',
+    facultyFeedback: 'Drawn black star by Sharmila Banu Mam',
     relatedTask: 'Lab Assignment 3: Functions & Collections',
     pythonConcepts: ['Functions', 'Lists', 'Dictionaries'],
     category: 'Excellent Coding',
@@ -90,7 +90,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     learningReflection: 'Learned to decompose large problems into clean helper functions.',
     imageUrl: '/evidence/notebook_stars_page1.png',
     isVerified: true,
-    verificationNotes: 'Handwritten black ink star and signature JSh (Sharmila Banu Mam) dated 31/7/2026 on Page 1.',
+    verificationNotes: 'Handwritten black ink star by Sharmila Banu Mam dated 31/7/2026 on Page 1.',
     stickers: 0,
     inkColor: 'Black ink',
     sourcePhotoId: 'photo-1'
@@ -110,7 +110,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     learningReflection: 'Tackled an advanced problem that required combining multiple data structures with minimal time complexity.',
     imageUrl: '/evidence/notebook_stars_page1.png',
     isVerified: true,
-    verificationNotes: 'Handwritten in blue: "★s + ★" with 3 physical pink star stickers visible on Page 1. Signed JSh (Sharmila Banu Mam) 19/8/26.',
+    verificationNotes: 'Handwritten in blue: "★s + ★" with 3 physical pink star stickers visible on Page 1. Signed by Sharmila Banu Mam 19/8/26.',
     stickers: 3,
     stickerColor: 'Pink faceted stickers',
     inkColor: 'Blue ink',
@@ -123,7 +123,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     stars: 3,
     facultyReason: 'Written bold "3 ★s" by Sharmila Banu Mam for exemplary programming excellence and clean solution structure.',
     facultyName: 'Sharmila Banu Mam',
-    facultyFeedback: 'Written bold "3 ★s" with signature JSh',
+    facultyFeedback: 'Written bold "3 ★s" by Sharmila Banu Mam',
     relatedTask: 'Midterm Practical Coding Assessment',
     pythonConcepts: ['OOP', 'Modular Design', 'Testing'],
     category: 'Excellent Coding',
@@ -131,7 +131,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     learningReflection: 'Demonstrated complete independence in writing production-grade Python scripts.',
     imageUrl: '/evidence/notebook_stars_page1.png',
     isVerified: true,
-    verificationNotes: 'Handwritten in black: bold "3 ★s" signed JSh (Sharmila Banu Mam) 21/8/26 on Page 1.',
+    verificationNotes: 'Handwritten in black: bold "3 ★s" signed by Sharmila Banu Mam 21/8/26 on Page 1.',
     stickers: 0,
     inkColor: 'Black ink',
     sourcePhotoId: 'photo-1'
@@ -151,7 +151,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     learningReflection: 'A standout moment of recognition that validated months of diligent lab practice and learning.',
     imageUrl: '/evidence/notebook_stars_page1.png',
     isVerified: true,
-    verificationNotes: 'Handwritten in blue: "2 ★s" and "Good Job DHARMA!" signed JSh (Sharmila Banu Mam) 9/9/26 with 2 green gem star stickers below.',
+    verificationNotes: 'Handwritten in blue: "2 ★s" and "Good Job DHARMA!" signed by Sharmila Banu Mam 9/9/26 with 2 green gem star stickers below.',
     stickers: 2,
     stickerColor: 'Green faceted stickers',
     inkColor: 'Blue ink',
@@ -173,7 +173,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     learningReflection: 'Understood that without a key column, Pandas merge performs a full Cartesian product (M x N rows), analogous to a SQL cross join.',
     imageUrl: '/evidence/notebook_notes_page2.png',
     isVerified: true,
-    verificationNotes: 'Page 2 top entry: handwritten "2 ★s" and "Good!" next to Cartesian Product / Pandas notes, signed JSh (Sharmila Banu Mam) 16/10/2026.',
+    verificationNotes: 'Page 2 top entry: handwritten "2 ★s" and "Good!" next to Cartesian Product / Pandas notes, signed by Sharmila Banu Mam 16/10/2026.',
     stickers: 0,
     inkColor: 'Blue ink',
     sourcePhotoId: 'photo-2'
@@ -194,7 +194,7 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     imageUrl: '/evidence/notebook_notes_page2.png',
     mediumArticleUrl: 'https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4',
     isVerified: true,
-    verificationNotes: 'Page 2 middle entry: handwritten "1 ★ : Tech Speech \'Podcast\'" signed JSh (Sharmila Banu Mam) 16/10/2026. Published companion article on Medium.',
+    verificationNotes: 'Page 2 middle entry: handwritten "1 ★ : Tech Speech \'Podcast\'" signed by Sharmila Banu Mam 16/10/2026. Published companion article on Medium.',
     stickers: 0,
     inkColor: 'Blue ink',
     sourcePhotoId: 'photo-2'
@@ -222,7 +222,7 @@ export const NOTEBOOK_PYTHON_TOPICS = [
     description: 'Technical presentation and podcast format explaining Python architecture, libraries, and practical data analysis.',
     relatedTask: 'Notebook Page 2 Entry: ": Tech Speech \'Podcast\'"',
     codeSnippet: '# Outline for Tech Speech Podcast\nTOPIC = "Demystifying Data Wrangling in Python"\nKEY_POINTS = [\n    "1. Vectorized math with NumPy",\n    "2. Relational joins and Cartesian products with Pandas",\n    "3. Handling missing data gracefully"\n]\nprint(f"Podcast Subject: {TOPIC}")',
-    notes: 'Awarded 1 ★ under signature JSh (Sharmila Banu Mam) on 16/10/2026.',
+    notes: 'Awarded 1 ★ signed by Sharmila Banu Mam on 16/10/2026.',
     skillsDemonstrated: 'Public speaking, technical articulation, concept summarization',
     relatedAchievementId: 'nb-star-08'
   },
@@ -351,13 +351,13 @@ export const NOTEBOOK_PYTHON_TOPICS = [
 export const DHARMA_PROFILE = {
   name: 'Dharma',
   avatarUrl: '/evidence/profile_picture.jpg',
-  course: 'Python Programming',
+  course: 'Advance Python Programming',
   institution: 'School of Computing & Computer Applications',
   semester: 'Current Academic Semester (2026)',
   academicYear: '2026',
   bio: 'Dedicated Python student showcasing verified star recognitions from Sharmila Banu Mam, handwritten notebook assessments, published technical writing on Medium, and assistive AI biomedical architectures.',
   targetStars: 14,
-  learningGoal: 'Master Python core data structures, Pandas data manipulation (joins & Cartesian products), and AI-driven assistive vision systems for impaired persons.',
+  learningGoal: 'Master Advance Python data structures, Pandas data manipulation (joins & Cartesian products), and AI-driven assistive vision systems for impaired persons.',
   strengths: 'Analytical problem breakdown, consistent weekly lab performance, technical presentations, published technical writing in Python in Plain English, and biomedical AI architecture recognized by Sharmila Banu Mam.',
   areasToImprove: 'Advanced asynchronous pipelines, deep database SQL ORM integration, and real-time embedded neural interface firmware.',
   futureGoals: 'Build end-to-end data analytics solutions and assistive AI technologies for impaired persons, automate workflows, and advance bio-computational systems.',
@@ -371,4 +371,22 @@ export const DHARMA_PROFILE = {
     readTime: '4 min read',
     topic: 'Python Philosophy, Clean Code, Rapid Prototyping & AI Innovation'
   }
+};
+
+export const SWEET_MEMORIES_DATA = {
+  id: 'sweet-memories-batch',
+  title: 'Advance Python Programming Class with Sharmila Banu Mam',
+  badge: 'Sweet Memories • Cherished Class & Faculty Moment',
+  imageUrl: '/evidence/sweet_memories_class.jpg',
+  date: 'Academic Year 2026',
+  location: 'School of Computing & Computer Applications, VIT Computer Lab',
+  faculty: 'Sharmila Banu Mam',
+  quote: '“The guidance, encouragement, and stars from Sharmila Banu Mam turned learning Advance Python Programming into an inspiring milestone.”',
+  description: 'A treasured memory capturing our entire Advance Python Programming class gathered together with respected faculty Sharmila Banu Mam in the VIT computer laboratory. Standing beside our lab workstations, this photograph commemorates the teamwork, hands-on coding achievements, and supportive faculty mentorship that made this semester unforgettable.',
+  highlights: [
+    'Mentorship & Guidance from Sharmila Banu Mam',
+    'VIT Computer Lab Workstations & Coding Sessions',
+    'Advance Python Programming Practical Learning',
+    'Camaraderie, Team Projects & Lasting Friendships'
+  ]
 };

@@ -1,6 +1,6 @@
-# Python Course Star Achievement Portfolio ⭐
+# Advance Python Course Star Achievement Portfolio ⭐
 
-An interactive, modern student achievement portfolio built for **Dharma** ([@DharmaSundaram](https://github.com/DharmaSundaram)) to showcase real Python course milestones, verified handwritten notebook star awards, Sharmila Banu Mam's commendations, and curriculum progression.
+An interactive, modern student achievement portfolio built for **Dharma** ([@DharmaSundaram](https://github.com/DharmaSundaram)) to showcase real Advance Python course milestones, verified handwritten notebook star awards, Sharmila Banu Mam's commendations, and curriculum progression.
 
 - 👤 **Author / Student**: Dharma S (`23MIC0104`)
 - 🐙 **GitHub Profile**: [https://github.com/DharmaSundaram](https://github.com/DharmaSundaram)
@@ -16,7 +16,7 @@ Developed using **React**, **Vite**, **Tailwind CSS**, **Lucide React**, **Recha
 This portfolio is anchored to authentic handwritten notebook evaluations:
 
 1. **Page 1: Semester Star Log & Sharmila Banu Mam Commendation** (`/evidence/notebook_stars_page1.png`):
-   - **6 Star Entries** signed by **Sharmila Banu Mam (JSh)** in red, blue, and black ink.
+   - **6 Star Entries** signed by **Sharmila Banu Mam** in red, blue, and black ink.
    - **5 Physical Gem Star Stickers**: 3 pink faceted stickers (19/08/2026) and 2 green faceted stickers (09/09/2026).
    - **Handwritten Commendation from Sharmila Banu Mam**: `"Good Job DHARMA!"` written in bold blue ink alongside 2 stars on 09/09/2026.
    - **Total Stars on Page 1**: 11 Stars (1 + 1 + 1 + 3 + 3 + 2).
@@ -27,7 +27,7 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
      - Awarded `2 ★s` with the evaluation note: `"Good!"`.
    - **Tech Speech**:
      - `: Tech Speech 'Podcast'` awarded `1 ★`.
-   - Signed by **Sharmila Banu Mam (JSh)** on `16/10/2026`.
+   - Signed by **Sharmila Banu Mam** on `16/10/2026`.
    - **Total Stars on Page 2**: 3 Stars (2 + 1).
 
 3. **Advance Python Project Showcase: Circular E-Waste Recovery & Refurbishment Intelligence Platform**:
@@ -53,6 +53,10 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - **Author**: Dharma
    - **Core Concepts**: Human-centric syntax, rapid prototyping to scalable enterprise systems, AI & deep-tech democratization.
    - **Curriculum Linkage**: Complements Notebook Page 2 Tech Speech evaluation (`: Tech Speech 'Podcast'`) signed by Sharmila Banu Mam.
+
+6. **Sweet Memories: Advance Python Programming Class with Sharmila Banu Mam** (`/evidence/sweet_memories_class.jpg`):
+   - **Classroom & Laboratory Group Photograph**: Commemorating our Advance Python Programming batch gathered with respected faculty Sharmila Banu Mam in the VIT computer laboratory.
+   - **Mentorship & Camaraderie**: Honors the dedicated mentorship, practical workstation coding sessions, and classroom memories throughout the academic semester.
 
 ### Grand Totals (Calculated from Real Notebook Records):
 - **Total Confirmed Stars**: **14 ⭐** (Page 1: 11 stars + Page 2: 3 stars)

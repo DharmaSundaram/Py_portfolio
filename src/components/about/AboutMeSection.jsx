@@ -18,7 +18,7 @@ export default function AboutMeSection({
             About Me & My Learning Mindset
           </h2>
           <p className="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
-            A personal summary of my interest in Python programming, learning achievements, recognized strengths, and future aspirations.
+            A personal summary of my interest in Advance Python programming, learning achievements, recognized strengths, and future aspirations.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function AboutMeSection({
           {/* Interest in Python / Overview */}
           <div className="pt-6 space-y-3">
             <h4 className="text-xs font-mono uppercase tracking-wider text-slate-400 font-bold">
-              My Interest in Python & Semester Journey
+              My Interest in Advance Python & Semester Journey
             </h4>
             <p className="text-sm sm:text-base text-slate-200 leading-relaxed">
               {profile.bio || "Passionate student learning Python fundamentals, data structures, and real-world scripting."}

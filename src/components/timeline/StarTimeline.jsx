@@ -45,7 +45,7 @@ export default function StarTimeline({
               Notebook-Inspired Timeline
             </h2>
             <p className="text-slate-400 text-sm mt-1">
-              Real chronological timeline reconstructed from handwritten dates, signatures by Sharmila Banu Mam (JSh), and star awards.
+              Real chronological timeline reconstructed from handwritten dates, signatures by Sharmila Banu Mam, and star awards.
             </p>
           </div>
 

@@ -38,7 +38,7 @@ export default function Navbar({
 
   const navLinks = [
     { id: 'home', label: 'Home' },
-    { id: 'evidence', label: 'Course Photos' },
+    { id: 'evidence', label: 'Notebook Photos' },
     { id: 'project-demo', label: 'Project Demo' },
     { id: 'assistive-vision', label: 'Neural Vision' },
     { id: 'achievements', label: 'Achievements' },

@@ -31,66 +31,6 @@ export const NOTEBOOK_EVIDENCE_PHOTOS = [
     stickersCounted: 0,
     keyHighlight: 'Technical notes on Pandas merge/cross join + Tech Speech Podcast',
     categoryBadge: 'Original Notebook Page'
-  },
-  {
-    id: 'photo-3',
-    title: 'First Quiz Event: Classroom Python Technical Quiz',
-    date: '2026-08-05',
-    imageUrl: '/evidence/first_quiz_event.png',
-    caption: 'Live classroom quiz event conducted by Sharmila Banu Mam, featuring collaborative team rounds, rapid technical question solving, and active peer engagement.',
-    recordsCovered: 1,
-    starsCounted: 1,
-    stickersCounted: 0,
-    keyHighlight: 'Classroom team competition in the First Python Quiz Event',
-    categoryBadge: 'First Quiz Event',
-    metricLabels: {
-      m1Title: 'Event Type',
-      m1Value: 'Classroom Quiz',
-      m2Title: 'Format',
-      m2Value: 'Interactive',
-      m3Title: 'Faculty',
-      m3Value: 'Sharmila Banu Mam'
-    }
-  },
-  {
-    id: 'photo-4',
-    title: 'Storytelling Event: Circular E-Waste Recovery & Refurbishment Intelligence Platform',
-    date: '2026-09-24',
-    imageUrl: '/evidence/story_tell_event.png',
-    caption: 'Interactive computer lab storytelling event presenting our collaborative Advance Python project: "Circular E-Waste Recovery & Refurbishment Intelligence Platform". Developed with Nideesh C G (App 1: Collection & Recovery) and Dharma S (App 2: Refurbishment Intelligence), demonstrating live workstation code execution and dual Vercel cloud deployment reviewed by Sharmila Banu Mam.',
-    recordsCovered: 1,
-    starsCounted: 2,
-    stickersCounted: 0,
-    keyHighlight: 'Lab presentation & storytelling walkthrough of Circular E-Waste Platform',
-    categoryBadge: 'Storytelling Event',
-    metricLabels: {
-      m1Title: 'Platform',
-      m1Value: 'Circular E-Waste',
-      m2Title: 'Team',
-      m2Value: 'Nideesh & Dharma',
-      m3Title: 'Faculty',
-      m3Value: 'Sharmila Banu Mam'
-    }
-  },
-  {
-    id: 'photo-5',
-    title: 'Theory Class Innovation: Camera-Based Artificial Vision System for Visually Impaired',
-    date: '2026-10-28',
-    imageUrl: '/evidence/artificial_vision_neural_implant.jpg',
-    caption: 'Bio-computational engineering architecture developed in response to Sharmila Banu Mam\'s theory class challenge: "How can you help impaired persons?". The design proposes Option A: Bypassing damaged eyes and optic nerves using an external smart glasses camera, AI feature encoder, wireless inductive transmitter, and a visual cortex micro-electrode implant (occipital lobe V1/V2/V3) to evoke phosphene-based visual perception.',
-    recordsCovered: 1,
-    starsCounted: 3,
-    stickersCounted: 0,
-    keyHighlight: 'AI Neural Vision Solution for Impaired Persons (Bypassing Damaged Optic Nerve)',
-    categoryBadge: 'Theory Class Innovation',
-    metricLabels: {
-      m1Title: 'Origin',
-      m1Value: 'Theory Class Challenge',
-      m2Title: 'Faculty Prompt',
-      m2Value: 'Sharmila Banu Mam',
-      m3Title: 'Target Impact',
-      m3Value: 'Visually Impaired Persons'
-    }
   }
 ];
 

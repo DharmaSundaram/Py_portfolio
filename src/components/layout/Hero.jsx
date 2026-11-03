@@ -245,7 +245,7 @@ export default function Hero({
             className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-slate-200 hover:text-white glass-panel hover:bg-white/10 border border-white/10 transition-all flex items-center gap-2"
           >
             <Camera className="w-4 h-4 text-amber-400" />
-            <span>Course Photos & Designs (5 Items)</span>
+            <span>Notebook Photos (2 Pages)</span>
           </a>
 
           <button

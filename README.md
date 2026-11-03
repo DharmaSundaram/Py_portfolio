@@ -25,10 +25,7 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - Signed by **Sharmila Banu Mam (JSh)** on `16/10/2026`.
    - **Total Stars on Page 2**: 3 Stars (2 + 1).
 
-3. **First Classroom Quiz Event** (`/evidence/first_quiz_event.png`):
-   - Interactive classroom quiz round conducted by Sharmila Banu Mam (Classroom Activity Event).
-
-4. **Advance Python Project Storytelling Event: Circular E-Waste Recovery & Refurbishment Intelligence Platform** (`/evidence/story_tell_event.png`):
+3. **Advance Python Project Showcase: Circular E-Waste Recovery & Refurbishment Intelligence Platform**:
    - **Project Walkthrough & Workstation Storytelling** reviewed by Sharmila Banu Mam.
    - **Application 1: Collection & Recovery (Lead)**: NIDEESH C G (`23MIC0092`)
      - Live App: [e-waste-recovery-system-sand.vercel.app](https://e-waste-recovery-system-sand.vercel.app/)
@@ -39,13 +36,13 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - **Official Presentation Deck**: `e-waste-presentation.pptx` (`/docs/e-waste-presentation.pptx`)
    - **Video Walkthrough**: `project_demo.mp4` (`/videos/project_demo.mp4`)
 
-5. **Theory Class Innovation: Camera-Based Artificial Vision System for Visually Impaired** (`/evidence/artificial_vision_neural_implant.jpg`):
+4. **Theory Class Innovation: Camera-Based Artificial Vision System for Visually Impaired**:
    - **Classroom Challenge Prompt**: Sharmila Banu Mam challenged the class: *"How can you help impaired persons?"*
    - **Our Solution**: Camera-Based Artificial Vision System with Visual Cortex Neural Implant (**Option A: Bypassing damaged eye and optic nerve to stimulate the visual cortex**).
    - **Architecture**: Smart glasses camera + AI edge & feature extraction encoder + transcutaneous wireless RF/inductive link + occipital lobe (V1/V2/V3) micro-electrode array + cortical phosphene pattern perception.
    - **Recognition**: Celebrated biomedical AI design for compassionate engineering.
 
-6. **Published Technical Writing on Medium**:
+5. **Published Technical Writing on Medium**:
    - **Publication**: *Python in Plain English* on Medium
    - **Article Title**: [Python: The Language That Turns Simple Ideas into Powerful Innovations](https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4)
    - **Author**: Dharma

@@ -362,6 +362,7 @@ export const DHARMA_PROFILE = {
   areasToImprove: 'Advanced asynchronous pipelines, deep database SQL ORM integration, and real-time embedded neural interface firmware.',
   futureGoals: 'Build end-to-end data analytics solutions and assistive AI technologies for impaired persons, automate workflows, and advance bio-computational systems.',
   facultyCommendation: 'Good Job DHARMA!',
+  githubUrl: 'https://github.com/DharmaSundaram',
   mediumUrl: 'https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4',
   mediumArticle: {
     title: 'Python: The Language That Turns Simple Ideas into Powerful Innovations',

@@ -124,10 +124,11 @@ export function getStoredProfile() {
       ...saved,
       targetStars: DHARMA_PROFILE.targetStars,
       avatarUrl: saved.avatarUrl || DHARMA_PROFILE.avatarUrl || '/evidence/profile_picture.jpg',
+      githubUrl: saved.githubUrl || DHARMA_PROFILE.githubUrl,
       mediumUrl: saved.mediumUrl || DHARMA_PROFILE.mediumUrl,
       mediumArticle: saved.mediumArticle || DHARMA_PROFILE.mediumArticle
     };
-    if (!saved.avatarUrl || !saved.mediumUrl || saved.targetStars !== DHARMA_PROFILE.targetStars) {
+    if (!saved.avatarUrl || !saved.githubUrl || !saved.mediumUrl || saved.targetStars !== DHARMA_PROFILE.targetStars) {
       safeSetItem(STORAGE_KEYS.PROFILE, updated);
     }
     return updated;

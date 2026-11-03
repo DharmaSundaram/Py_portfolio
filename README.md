@@ -1,6 +1,11 @@
 # Python Course Star Achievement Portfolio ⭐
 
-An interactive, modern student achievement portfolio built for **Dharma** to showcase real Python course milestones, verified handwritten notebook star awards, Sharmila Banu Mam's commendations, and curriculum progression.
+An interactive, modern student achievement portfolio built for **Dharma** ([@DharmaSundaram](https://github.com/DharmaSundaram)) to showcase real Python course milestones, verified handwritten notebook star awards, Sharmila Banu Mam's commendations, and curriculum progression.
+
+- 👤 **Author / Student**: Dharma S (`23MIC0104`)
+- 🐙 **GitHub Profile**: [https://github.com/DharmaSundaram](https://github.com/DharmaSundaram)
+- 📝 **Medium Publication**: [Python: The Language That Turns Simple Ideas into Powerful Innovations](https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4)
+- 🌐 **Live Portfolio**: [https://py-portfolio-seven.vercel.app](https://py-portfolio-seven.vercel.app)
 
 Developed using **React**, **Vite**, **Tailwind CSS**, **Lucide React**, **Recharts**, and **LocalStorage**.
 

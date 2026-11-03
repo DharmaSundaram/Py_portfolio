@@ -5,8 +5,8 @@ export default function Navbar({
   onAddStar,
   onOpenExportImport,
   onOpenReport,
-  totalStars = 20,
-  achievementCount = 9
+  totalStars = 14,
+  achievementCount = 8
 }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

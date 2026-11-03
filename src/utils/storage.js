@@ -48,7 +48,18 @@ export function getStoredAchievements() {
   if (saved !== null && Array.isArray(saved) && saved.length > 0) {
     // Automatically migrate any stored entries from Faculty / Faculty JSh to Sharmila Banu Mam
     let hasChanged = false;
-    const migrated = saved.map(item => {
+    const obsoleteIds = new Set(['nb-quiz-01', 'nb-story-01', 'nb-theory-impaired-01']);
+    
+    // Remove obsolete non-notebook records so only authentic notebook entries remain
+    const filteredSaved = saved.filter(item => {
+      if (obsoleteIds.has(item.id)) {
+        hasChanged = true;
+        return false;
+      }
+      return true;
+    });
+
+    const migrated = filteredSaved.map(item => {
       let updated = { ...item };
       if (updated.facultyName === 'Faculty JSh' || updated.facultyName === 'Course Faculty' || !updated.facultyName) {
         updated.facultyName = 'Sharmila Banu Mam';
@@ -64,17 +75,10 @@ export function getStoredAchievements() {
           .replace(/Special faculty commendation/gi, 'Special commendation from Sharmila Banu Mam');
         hasChanged = true;
       }
-      if (updated.id === 'nb-story-01' && updated.title && !updated.title.includes('Circular E-Waste')) {
-        const freshStory = REAL_NOTEBOOK_ACHIEVEMENTS.find(r => r.id === 'nb-story-01');
-        if (freshStory) {
-          updated = { ...updated, ...freshStory };
-          hasChanged = true;
-        }
-      }
       return updated;
     });
 
-    // Ensure all standard records (e.g. nb-quiz-01 First Quiz Event, nb-story-01 Storytelling Event) are present
+    // Ensure all standard genuine notebook records (8 entries) are present
     REAL_NOTEBOOK_ACHIEVEMENTS.forEach(defaultItem => {
       const exists = migrated.some(m => m.id === defaultItem.id);
       if (!exists) {
@@ -118,11 +122,12 @@ export function getStoredProfile() {
     const updated = { 
       ...DHARMA_PROFILE, 
       ...saved,
+      targetStars: DHARMA_PROFILE.targetStars,
       avatarUrl: saved.avatarUrl || DHARMA_PROFILE.avatarUrl || '/evidence/profile_picture.jpg',
       mediumUrl: saved.mediumUrl || DHARMA_PROFILE.mediumUrl,
       mediumArticle: saved.mediumArticle || DHARMA_PROFILE.mediumArticle
     };
-    if (!saved.avatarUrl || !saved.mediumUrl) {
+    if (!saved.avatarUrl || !saved.mediumUrl || saved.targetStars !== DHARMA_PROFILE.targetStars) {
       safeSetItem(STORAGE_KEYS.PROFILE, updated);
     }
     return updated;

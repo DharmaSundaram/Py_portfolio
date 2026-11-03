@@ -26,10 +26,10 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - **Total Stars on Page 2**: 3 Stars (2 + 1).
 
 3. **First Classroom Quiz Event** (`/evidence/first_quiz_event.png`):
-   - Interactive classroom quiz round conducted by Sharmila Banu Mam (`1 ★`).
+   - Interactive classroom quiz round conducted by Sharmila Banu Mam (Classroom Activity Event).
 
 4. **Advance Python Project Storytelling Event: Circular E-Waste Recovery & Refurbishment Intelligence Platform** (`/evidence/story_tell_event.png`):
-   - **Project Walkthrough & Workstation Storytelling** (`2 ★s`) reviewed by Sharmila Banu Mam.
+   - **Project Walkthrough & Workstation Storytelling** reviewed by Sharmila Banu Mam.
    - **Application 1: Collection & Recovery (Lead)**: NIDEESH C G (`23MIC0092`)
      - Live App: [e-waste-recovery-system-sand.vercel.app](https://e-waste-recovery-system-sand.vercel.app/)
      - GitHub: [Nideesh-CG/E-waste-Recovery-System](https://github.com/Nideesh-CG/E-waste-Recovery-System.git)
@@ -43,7 +43,7 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - **Classroom Challenge Prompt**: Sharmila Banu Mam challenged the class: *"How can you help impaired persons?"*
    - **Our Solution**: Camera-Based Artificial Vision System with Visual Cortex Neural Implant (**Option A: Bypassing damaged eye and optic nerve to stimulate the visual cortex**).
    - **Architecture**: Smart glasses camera + AI edge & feature extraction encoder + transcutaneous wireless RF/inductive link + occipital lobe (V1/V2/V3) micro-electrode array + cortical phosphene pattern perception.
-   - **Recognition**: Awarded `3 ★s` for biomedical AI innovation and compassionate engineering.
+   - **Recognition**: Celebrated biomedical AI design for compassionate engineering.
 
 6. **Published Technical Writing on Medium**:
    - **Publication**: *Python in Plain English* on Medium
@@ -52,11 +52,11 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - **Core Concepts**: Human-centric syntax, rapid prototyping to scalable enterprise systems, AI & deep-tech democratization.
    - **Curriculum Linkage**: Complements Notebook Page 2 Tech Speech evaluation (`: Tech Speech 'Podcast'`) signed by Sharmila Banu Mam.
 
-### Grand Totals (Calculated from Real Records):
-- **Total Confirmed Stars**: **20 ⭐**
-- **Total Achievement Records**: **11 Documented Records**
+### Grand Totals (Calculated from Real Notebook Records):
+- **Total Confirmed Stars**: **14 ⭐** (Page 1: 11 stars + Page 2: 3 stars)
+- **Total Notebook Star Entries**: **8 Documented Handwritten Entries**
 - **Physical Gem Stickers Awarded**: **5 Stickers** (3 Pink + 2 Green)
-- **Verified Commendations**: `"Good Job DHARMA!"`, `"Good!"`, and Special Theory Innovation Recognition from Sharmila Banu Mam
+- **Verified Commendations**: `"Good Job DHARMA!"` and `"Good!"` from Sharmila Banu Mam
 
 ---
 

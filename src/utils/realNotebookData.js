@@ -156,26 +156,6 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     sourcePhotoId: 'photo-1'
   },
   {
-    id: 'nb-quiz-01',
-    title: 'First Quiz Event: Python Technical Challenge',
-    date: '2026-08-05',
-    stars: 1,
-    facultyReason: 'Active team participation and strong conceptual performance in the First Classroom Python Quiz Event conducted by Sharmila Banu Mam.',
-    facultyName: 'Sharmila Banu Mam',
-    facultyFeedback: 'Great participation in Python Quiz!',
-    relatedTask: 'Classroom Activity: Python Fundamental Quiz Competition & Rapid Recall Rounds',
-    pythonConcepts: ['Python Basics', 'Control Flow', 'Interactive Quiz', 'Peer Collaboration'],
-    category: 'Active Participation',
-    skillsDemonstrated: 'Speed problem-solving, rapid technical recall, teamwork, technical communication',
-    learningReflection: 'Engaged in live team rounds during the first classroom quiz, collaborating with peers and reinforcing core Python concepts under timed questions.',
-    imageUrl: '/evidence/first_quiz_event.png',
-    isVerified: true,
-    verificationNotes: 'Classroom event photograph documenting active student participation in the First Python Quiz Event.',
-    stickers: 0,
-    inkColor: 'Blue ink',
-    sourcePhotoId: 'photo-3'
-  },
-  {
     id: 'nb-star-04',
     title: 'Multi-Star Problem-Solving Challenge (+ 3 Gem Stickers)',
     date: '2026-08-19',
@@ -239,26 +219,6 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     isHighlighted: true
   },
   {
-    id: 'nb-story-01',
-    title: 'Storytelling Event: Circular E-Waste Recovery & Refurbishment Intelligence Platform',
-    date: '2026-09-24',
-    stars: 2,
-    facultyReason: 'Presented the storytelling event for the Advance Python Programming lab project: "Circular E-Waste Recovery & Refurbishment Intelligence Platform". Developed in collaboration with Nideesh C G (App 1: Collection & Recovery) and Dharma S (App 2: Refurbishment Intelligence), demonstrating live workstation execution, Vercel deployments, and presentation slide deck reviewed by Sharmila Banu Mam.',
-    facultyName: 'Sharmila Banu Mam',
-    facultyFeedback: 'Engaging project storytelling and solid dual-application implementation walkthrough!',
-    relatedTask: 'Lab Presentation: Circular E-Waste Platform Storytelling, Code Walkthrough & PPT Presentation',
-    pythonConcepts: ['Advanced Python', 'System Architecture', 'Dual Vercel Cloud Apps', 'E-Waste Diagnostics', 'Live Code Demo', 'Lab Workstation Execution'],
-    category: 'Innovation & Creativity',
-    skillsDemonstrated: 'Collaborative engineering, technical storytelling, live code execution, system architecture explanation, presentation delivery',
-    learningReflection: 'Presented the narrative and technical mechanics of our Circular E-Waste Platform directly on the lab computers. Co-engineered with Nideesh C G (App 1) while developing App 2 for refurbishment intelligence, connecting backend Python logic to circular economic sustainability.',
-    imageUrl: '/evidence/story_tell_event.png',
-    isVerified: true,
-    verificationNotes: 'Computer lab photograph documenting the storytelling event and live workstation demonstration for the Circular E-Waste Recovery & Refurbishment Intelligence Platform.',
-    stickers: 0,
-    inkColor: 'Blue ink',
-    sourcePhotoId: 'photo-4'
-  },
-  {
     id: 'nb-star-07',
     title: 'Pandas Cartesian Product & Cross Join Analysis',
     date: '2026-10-16',
@@ -298,27 +258,6 @@ export const REAL_NOTEBOOK_ACHIEVEMENTS = [
     stickers: 0,
     inkColor: 'Blue ink',
     sourcePhotoId: 'photo-2'
-  },
-  {
-    id: 'nb-theory-impaired-01',
-    title: 'Theory Class Solution: Artificial Vision System with Visual Cortex Neural Implant',
-    date: '2026-10-28',
-    stars: 3,
-    facultyReason: 'In theory class, Sharmila Banu Mam challenged the class: "How can you help impaired persons?". Formulated and presented a complete bio-computational solution: Camera-Based Artificial Vision System with Visual Cortex Neural Implant (Option A: Bypassing damaged eye and optic nerve to stimulate visual cortex).',
-    facultyName: 'Sharmila Banu Mam',
-    facultyFeedback: 'Brilliant conceptual design! A compassionate and technically advanced AI solution to assist visually impaired persons.',
-    relatedTask: 'Theory Class Innovation: AI-Driven Assistive Technologies for Visually Impaired Persons',
-    pythonConcepts: ['Computer Vision', 'Image Preprocessing', 'Feature & Edge Extraction', 'Neural Stimulation Encoding', 'Assistive AI'],
-    category: 'Creativity and Innovation',
-    skillsDemonstrated: 'Biomedical systems engineering, neural interface modeling, edge detection pipelines, empathetic design for disability assistance',
-    learningReflection: 'When Mam challenged us to help impaired persons, our team engineered a solution that bypasses damaged eyes and optic nerves completely. By capturing real-time scenes with smart glasses, processing features through AI edge detection, and wirelessly transmitting biphasic stimulation pulses to a micro-electrode array on the occipital lobe (V1/V2/V3), the brain perceives phosphenes (light points) forming recognizable objects, people, and spatial motion.',
-    imageUrl: '/evidence/artificial_vision_neural_implant.jpg',
-    isVerified: true,
-    verificationNotes: 'Comprehensive technical architecture diagram presented in theory class to Sharmila Banu Mam, detailing image capture, AI encoder, wireless RF stimulator, and visual cortex electrode placement.',
-    stickers: 0,
-    inkColor: 'Digital Engineering Architecture',
-    sourcePhotoId: 'photo-5',
-    isHighlighted: true
   }
 ];
 
@@ -453,7 +392,7 @@ export const NOTEBOOK_PYTHON_TOPICS = [
     codeSnippet: 'import numpy as np\n\ndef simulate_visual_cortex_encoder(image_matrix, grid_size=(16, 16)):\n    """\n    Simulates the AI Feature Extraction & Neural Phosphene Encoder\n    for the Visual Cortex Neural Implant (Option A).\n    Bypasses damaged optic nerve by translating camera frames into \n    biphasic electrical stimulation pulses.\n    """\n    # 1. Image Preprocessing: Grayscale & Contrast Enhancement (Normalized 0.0 - 1.0)\n    norm_img = np.clip(image_matrix / 255.0, 0.0, 1.0)\n    \n    # 2. Feature Extraction: Spatial Gradient / Edge Magnitude\n    gy, gx = np.gradient(norm_img)\n    edges = np.sqrt(gx**2 + gy**2)\n    edges = (edges > 0.15).astype(float)\n    \n    # 3. Task-Adaptive Downsampling to Electrode Array (e.g. 16x16)\n    h, w = edges.shape\n    gh, gw = grid_size\n    phosphene_grid = np.zeros(grid_size, dtype=float)\n    \n    for i in range(gh):\n        for j in range(gw):\n            cell = edges[int(i*h/gh):int((i+1)*h/gh), int(j*w/gw):int((j+1)*w/gw)]\n            phosphene_grid[i, j] = 1.0 if np.mean(cell) > 0.12 else 0.0\n            \n    # 4. Generate Biphasic Electrical Pulses for Stimulator\n    # Safe charge-balanced pulses: +phase followed by -phase\n    pulse_amplitudes = phosphene_grid * 25.0  # microAmperes (uA)\n    return {\n        "active_electrodes": int(np.sum(phosphene_grid)),\n        "phosphene_map": phosphene_grid,\n        "max_pulse_uA": float(np.max(pulse_amplitudes)),\n        "status": "Safe biphasic pulses ready for wireless transmitter"\n    }\n\nprint("Visual Cortex Neural Encoder initialized for Assistive Vision!")',
     notes: 'Developed in response to Sharmila Banu Mam\'s theory class challenge on helping impaired persons. Connects Python array operations with biomedical cortical prosthetics.',
     skillsDemonstrated: 'NumPy array processing, discrete matrix mapping, edge extraction, bio-computational modeling',
-    relatedAchievementId: 'nb-theory-impaired-01'
+    relatedAchievementId: null
   },
   {
     id: 'topic-tree-canopy-pandas',
@@ -477,7 +416,7 @@ export const DHARMA_PROFILE = {
   semester: 'Current Academic Semester (2026)',
   academicYear: '2026',
   bio: 'Dedicated Python student showcasing verified star recognitions from Sharmila Banu Mam, handwritten notebook assessments, published technical writing on Medium, and assistive AI biomedical architectures.',
-  targetStars: 20,
+  targetStars: 14,
   learningGoal: 'Master Python core data structures, Pandas data manipulation (joins & Cartesian products), and AI-driven assistive vision systems for impaired persons.',
   strengths: 'Analytical problem breakdown, consistent weekly lab performance, technical presentations, published technical writing in Python in Plain English, and biomedical AI architecture recognized by Sharmila Banu Mam.',
   areasToImprove: 'Advanced asynchronous pipelines, deep database SQL ORM integration, and real-time embedded neural interface firmware.',

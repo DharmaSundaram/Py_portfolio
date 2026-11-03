@@ -59,10 +59,12 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - **Mentorship & Camaraderie**: Honors the dedicated mentorship, practical workstation coding sessions, and classroom memories throughout the academic semester.
 
 ### Grand Totals (Calculated from Real Notebook Records):
-- **Total Confirmed Stars**: **14 ⭐** (Page 1: 11 stars + Page 2: 3 stars)
+- **Grand Total Star Awards**: **19 Total Awards ⭐** (**14 Handwritten Stars + 3 Pink Physical Gem Stickers + 2 Green Physical Gem Stickers**)
+  - *Calculation Breakdown*: `14 Notebook Stars + 3 Pink Stickers (19/08/2026) + 2 Green Stickers (09/09/2026) = 19 Total Awards`
+- **Total Confirmed Handwritten Stars**: **14 ⭐** (Page 1: 11 stars + Page 2: 3 stars)
+- **Total Physical Gem Stickers Awarded**: **5 Gem Stickers ✨** (3 Pink faceted gems + 2 Green faceted gems)
 - **Total Notebook Star Entries**: **8 Documented Handwritten Entries**
-- **Physical Gem Stickers Awarded**: **5 Stickers** (3 Pink + 2 Green)
-- **Verified Commendations**: `"Good Job DHARMA!"` and `"Good!"` from Sharmila Banu Mam
+- **Verified Commendations**: `"Good Job DHARMA!"` (09/09/2026) and `"Good!"` from Sharmila Banu Mam
 
 ---
 

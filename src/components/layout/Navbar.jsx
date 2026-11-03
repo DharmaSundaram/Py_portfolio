@@ -6,6 +6,8 @@ export default function Navbar({
   onOpenExportImport,
   onOpenReport,
   totalStars = 14,
+  totalStickers = 5,
+  grandTotalAwards = 19,
   achievementCount = 8
 }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -87,13 +89,17 @@ export default function Navbar({
             <div>
               <div className="font-heading font-extrabold text-lg tracking-tight text-white flex items-center gap-2">
                 <span>Dharma's Advance Python Journey</span>
-                <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                  {totalStars} ⭐
+                <span
+                  className="text-xs font-bold px-2.5 py-0.5 rounded-full bg-amber-500/25 text-amber-300 border border-amber-500/40 shadow-[0_0_12px_rgba(245,158,11,0.3)] flex items-center gap-1"
+                  title="Total 19 Awards: 14 Stars + 3 Pink + 2 Green physical gem stickers"
+                >
+                  <span>{grandTotalAwards} ⭐</span>
+                  <span className="text-[10px] text-amber-200/90 font-normal hidden sm:inline">(14 ⭐ + 5 ✨)</span>
                 </span>
               </div>
-              <div className="text-[11px] text-slate-400 font-mono tracking-wider uppercase flex items-center gap-1.5">
-                <CheckCircle2 className="w-3 h-3 text-emerald-400 inline" />
-                <span>Verified Advance Python Notebook Portfolio</span>
+              <div className="text-[11px] text-slate-300 font-mono tracking-wider flex items-center gap-1.5">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 inline shrink-0" />
+                <span>19 Total Awards (14 Stars + 3 Pink + 2 Green Stickers)</span>
               </div>
             </div>
           </button>

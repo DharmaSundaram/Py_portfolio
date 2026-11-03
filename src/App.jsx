@@ -77,6 +77,8 @@ export default function App() {
   const totalStars = achievements
     .filter(a => a.isVerified !== false)
     .reduce((acc, curr) => acc + (Number(curr.stars) || 0), 0);
+  const totalStickers = achievements.reduce((acc, curr) => acc + (Number(curr.stickers) || 0), 0);
+  const grandTotalAwards = totalStars + totalStickers; // 14 + 3 Pink + 2 Green = 19 Total Awards
   const achievementCount = achievements.length;
 
   // --- Handlers: Achievement Management ---
@@ -300,6 +302,8 @@ export default function App() {
           onOpenExportImport={() => setIsExportImportOpen(true)}
           onOpenReport={() => setIsReportOpen(true)}
           totalStars={totalStars}
+          totalStickers={totalStickers}
+          grandTotalAwards={grandTotalAwards}
           achievementCount={achievementCount}
         />
 
@@ -384,6 +388,8 @@ export default function App() {
         <Footer
           profile={profile}
           totalStars={totalStars}
+          totalStickers={totalStickers}
+          grandTotalAwards={grandTotalAwards}
           onOpenExportImport={() => setIsExportImportOpen(true)}
           onOpenReport={() => setIsReportOpen(true)}
           onResetToDefaults={handleResetToDefaults}

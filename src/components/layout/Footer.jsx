@@ -4,6 +4,8 @@ import { Star, Heart, Database, Download, FileText, ArrowUp, RotateCcw, Trash2, 
 export default function Footer({
   profile,
   totalStars,
+  totalStickers = 5,
+  grandTotalAwards = 19,
   onOpenExportImport,
   onOpenReport,
   onResetToDefaults,
@@ -31,7 +33,7 @@ export default function Footer({
                 </span>
                 <span className="text-xs text-amber-300 font-mono flex items-center gap-1.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>{totalStars} Confirmed Stars • 5 Gem Stickers</span>
+                  <span>{grandTotalAwards} Total Awards ({totalStars} Stars + 3 Pink + 2 Green Gem Stickers)</span>
                 </span>
               </div>
             </div>

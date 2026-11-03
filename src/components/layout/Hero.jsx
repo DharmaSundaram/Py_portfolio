@@ -21,6 +21,7 @@ export default function Hero({
 
   // Star stickers physically visible in photographs (e.g. 3 pink on 19/8 + 2 green on 9/9 = 5 stickers)
   const totalStickers = achievements.reduce((acc, curr) => acc + (Number(curr.stickers) || 0), 0);
+  const grandTotalAwards = confirmedStars + totalStickers; // 14 Stars + 3 Pink + 2 Green physical gem stickers = 19
 
   // Records needing verification
   const pendingVerification = achievements.filter(a => a.isVerified === false).length;
@@ -31,6 +32,16 @@ export default function Hero({
 
   const stats = [
     {
+      id: 'grand-total-awards',
+      label: 'Grand Total Star Awards',
+      value: `${grandTotalAwards} ⭐`,
+      icon: Award,
+      color: 'from-amber-400 via-amber-500 to-yellow-500',
+      glow: 'shadow-amber-500/30',
+      textColor: 'text-amber-300',
+      subtext: '14 Stars + 3 Pink + 2 Green physical gem stickers'
+    },
+    {
       id: 'confirmed-stars',
       label: 'Total Confirmed Stars',
       value: `${confirmedStars} ⭐`,
@@ -38,7 +49,17 @@ export default function Hero({
       color: 'from-amber-400 to-yellow-500',
       glow: 'shadow-amber-500/20',
       textColor: 'text-amber-400',
-      subtext: pendingVerification > 0 ? `${pendingVerification} pending review` : `All ${totalRecords} records verified`
+      subtext: `All ${confirmedStars} notebook stars verified`
+    },
+    {
+      id: 'stickers',
+      label: 'Physical Gem Stickers',
+      value: `${totalStickers} ✨`,
+      icon: Sparkles,
+      color: 'from-purple-400 to-pink-500',
+      glow: 'shadow-purple-500/20',
+      textColor: 'text-purple-300',
+      subtext: '3 Pink + 2 Green physical gem stickers'
     },
     {
       id: 'records',
@@ -49,26 +70,6 @@ export default function Hero({
       glow: 'shadow-blue-500/20',
       textColor: 'text-cyan-400',
       subtext: 'Documented in notebook'
-    },
-    {
-      id: 'stickers',
-      label: 'Star Stickers Awarded',
-      value: `${totalStickers} ✨`,
-      icon: Sparkles,
-      color: 'from-purple-400 to-pink-500',
-      glow: 'shadow-purple-500/20',
-      textColor: 'text-purple-300',
-      subtext: '3 Pink + 2 Green physical gem stickers'
-    },
-    {
-      id: 'pending',
-      label: 'Pending Verification',
-      value: pendingVerification,
-      icon: AlertCircle,
-      color: pendingVerification > 0 ? 'from-rose-400 to-amber-500' : 'from-emerald-400 to-teal-500',
-      glow: pendingVerification > 0 ? 'shadow-rose-500/20' : 'shadow-emerald-500/20',
-      textColor: pendingVerification > 0 ? 'text-rose-400' : 'text-emerald-400',
-      subtext: pendingVerification > 0 ? 'Requires student review' : '100% Verified records'
     },
     {
       id: 'topics',
@@ -106,8 +107,15 @@ export default function Hero({
             "Every star tells a story of learning, effort, creativity, and achievement."
           </p>
 
-          {/* Commendation Highlight Pill */}
-          <div className="pt-2">
+          {/* Commendation & Total Awards Highlight Pills */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-gradient-to-r from-amber-500/15 via-yellow-500/15 to-pink-500/15 border border-amber-500/30 text-xs sm:text-sm font-semibold text-amber-200 shadow-lg shadow-amber-500/10">
+              <Award className="w-4 h-4 text-amber-400" />
+              <span className="text-amber-300 font-bold">Total Star Awards:</span>
+              <span className="text-white font-extrabold font-mono text-sm sm:text-base">{grandTotalAwards} Total</span>
+              <span className="text-[11px] text-amber-300/90 font-mono">(14 Stars + 3 Pink + 2 Green physical gem stickers)</span>
+            </div>
+
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-xs sm:text-sm font-semibold text-amber-200">
               <span className="text-amber-400 font-bold">Sharmila Banu Mam:</span>
               <span className="italic">“Good Job DHARMA!”</span>

@@ -30,6 +30,7 @@ export default function PrintableReport({
 
   const totalRecords = achievements.length;
   const totalStickers = achievements.reduce((acc, curr) => acc + (Number(curr.stickers) || 0), 0);
+  const grandTotalAwards = confirmedStars + totalStickers; // 14 Stars + 3 Pink + 2 Green physical gem stickers = 19
   const completedTopicsCount = topics.filter(t => t.status === 'Completed' || t.status === 'Mastered').length;
 
   const handlePrint = () => {
@@ -102,12 +103,12 @@ export default function PrintableReport({
               </div>
 
               <div className="text-right sm:border-l-2 sm:border-slate-300 sm:pl-6">
-                <div className="text-xs font-mono uppercase text-slate-500">Total Confirmed Stars</div>
+                <div className="text-xs font-mono uppercase text-slate-500 font-bold">Grand Total Star Awards</div>
                 <div className="text-4xl font-extrabold text-amber-600 font-mono">
-                  {confirmedStars} ⭐
+                  {grandTotalAwards} ⭐
                 </div>
                 <div className="text-xs text-slate-600 font-medium mt-0.5">
-                  {totalRecords} Records • {totalStickers} Gem Stickers
+                  14 Stars + 3 Pink + 2 Green Gem Stickers ({totalRecords} Records)
                 </div>
               </div>
             </div>
@@ -124,22 +125,31 @@ export default function PrintableReport({
           </div>
 
           {/* Key Metrics Summary Bar */}
-          <div className="grid grid-cols-4 gap-3 text-center border border-slate-200 rounded-xl p-3 bg-slate-50">
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 text-center border border-slate-200 rounded-xl p-3 bg-slate-50">
             <div>
-              <div className="text-[10px] font-mono uppercase text-slate-500">Confirmed Stars</div>
-              <div className="text-xl font-bold text-slate-900">{confirmedStars} ⭐</div>
+              <div className="text-[10px] font-mono uppercase text-slate-500 font-bold">Total Awards</div>
+              <div className="text-xl font-bold text-amber-600 font-mono">{grandTotalAwards} ⭐</div>
+              <div className="text-[9px] text-slate-500 font-mono">14⭐ + 5✨</div>
             </div>
             <div>
-              <div className="text-[10px] font-mono uppercase text-slate-500">Achievement Records</div>
-              <div className="text-xl font-bold text-slate-900">{totalRecords}</div>
+              <div className="text-[10px] font-mono uppercase text-slate-500">Confirmed Stars</div>
+              <div className="text-xl font-bold text-slate-900 font-mono">{confirmedStars} ⭐</div>
+              <div className="text-[9px] text-slate-500">Notebook Stars</div>
             </div>
             <div>
               <div className="text-[10px] font-mono uppercase text-slate-500">Gem Stickers</div>
-              <div className="text-xl font-bold text-slate-900">{totalStickers} ✨</div>
+              <div className="text-xl font-bold text-purple-700 font-mono">{totalStickers} ✨</div>
+              <div className="text-[9px] text-slate-500">3 Pink + 2 Green</div>
+            </div>
+            <div>
+              <div className="text-[10px] font-mono uppercase text-slate-500">Records</div>
+              <div className="text-xl font-bold text-slate-900 font-mono">{totalRecords}</div>
+              <div className="text-[9px] text-slate-500">Evaluated Tasks</div>
             </div>
             <div>
               <div className="text-[10px] font-mono uppercase text-slate-500">Topics Mastered</div>
-              <div className="text-xl font-bold text-slate-900">{completedTopicsCount}/{topics.length || 8}</div>
+              <div className="text-xl font-bold text-slate-900 font-mono">{completedTopicsCount}/{topics.length || 8}</div>
+              <div className="text-[9px] text-slate-500">Curriculum</div>
             </div>
           </div>
 

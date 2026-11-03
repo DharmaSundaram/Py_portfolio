@@ -118,9 +118,11 @@ export function getStoredProfile() {
     const updated = { 
       ...DHARMA_PROFILE, 
       ...saved,
-      avatarUrl: saved.avatarUrl || DHARMA_PROFILE.avatarUrl || '/evidence/profile_picture.jpg'
+      avatarUrl: saved.avatarUrl || DHARMA_PROFILE.avatarUrl || '/evidence/profile_picture.jpg',
+      mediumUrl: saved.mediumUrl || DHARMA_PROFILE.mediumUrl,
+      mediumArticle: saved.mediumArticle || DHARMA_PROFILE.mediumArticle
     };
-    if (!saved.avatarUrl) {
+    if (!saved.avatarUrl || !saved.mediumUrl) {
       safeSetItem(STORAGE_KEYS.PROFILE, updated);
     }
     return updated;

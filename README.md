@@ -45,6 +45,13 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - **Architecture**: Smart glasses camera + AI edge & feature extraction encoder + transcutaneous wireless RF/inductive link + occipital lobe (V1/V2/V3) micro-electrode array + cortical phosphene pattern perception.
    - **Recognition**: Awarded `3 ★s` for biomedical AI innovation and compassionate engineering.
 
+6. **Published Technical Writing on Medium**:
+   - **Publication**: *Python in Plain English* on Medium
+   - **Article Title**: [Python: The Language That Turns Simple Ideas into Powerful Innovations](https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4)
+   - **Author**: Dharma
+   - **Core Concepts**: Human-centric syntax, rapid prototyping to scalable enterprise systems, AI & deep-tech democratization.
+   - **Curriculum Linkage**: Complements Notebook Page 2 Tech Speech evaluation (`: Tech Speech 'Podcast'`) signed by Sharmila Banu Mam.
+
 ### Grand Totals (Calculated from Real Records):
 - **Total Confirmed Stars**: **20 ⭐**
 - **Total Achievement Records**: **11 Documented Records**

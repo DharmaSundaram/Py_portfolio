@@ -230,6 +230,16 @@ export default function Hero({
           </a>
 
           <a
+            href={profile?.mediumUrl || "https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-rose-300 hover:text-white glass-panel hover:bg-rose-500/20 border border-rose-500/40 transition-all flex items-center gap-2 shadow-lg shadow-rose-500/10"
+          >
+            <BookOpen className="w-4 h-4 text-rose-400" />
+            <span>Medium Blog</span>
+          </a>
+
+          <a
             href="#evidence"
             onClick={onViewEvidence}
             className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-slate-200 hover:text-white glass-panel hover:bg-white/10 border border-white/10 transition-all flex items-center gap-2"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Heart, Database, Download, FileText, ArrowUp, RotateCcw, Trash2, Camera, CheckCircle2 } from 'lucide-react';
+import { Star, Heart, Database, Download, FileText, ArrowUp, RotateCcw, Trash2, Camera, CheckCircle2, BookOpen } from 'lucide-react';
 
 export default function Footer({
   profile,
@@ -78,6 +78,17 @@ export default function Footer({
               </li>
               <li>
                 <a href="#analytics" className="hover:text-amber-300 transition-colors">Analytics & Distribution</a>
+              </li>
+              <li>
+                <a 
+                  href="https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-rose-300 transition-colors flex items-center gap-1 text-rose-300/90 font-medium"
+                >
+                  <BookOpen className="w-3 h-3 text-rose-400" />
+                  <span>Medium: Python Innovations</span>
+                </a>
               </li>
             </ul>
           </div>

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, Calendar, Star, Code2, Award, Lightbulb, MessageSquareQuote, CheckCircle2, Edit3, Image, Sparkles, AlertCircle } from 'lucide-react';
+import { X, Calendar, Star, Code2, Award, Lightbulb, MessageSquareQuote, CheckCircle2, Edit3, Image, Sparkles, AlertCircle, BookOpen, ExternalLink } from 'lucide-react';
 import StarDisplay from '../common/StarDisplay';
 import Badge from '../common/Badge';
 
@@ -204,6 +204,30 @@ export default function AchievementDetailModal({
               <p className="text-sm text-slate-200 leading-relaxed">
                 {achievement.learningReflection}
               </p>
+            </div>
+          )}
+
+          {/* Published Medium Article Link */}
+          {achievement.mediumArticleUrl && (
+            <div className="p-4 rounded-2xl bg-rose-500/10 border border-rose-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+              <div className="space-y-0.5">
+                <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-wider text-rose-300 font-bold">
+                  <BookOpen className="w-4 h-4" />
+                  <span>Published on Medium (Python in Plain English)</span>
+                </div>
+                <p className="text-xs text-slate-300">
+                  "Python: The Language That Turns Simple Ideas into Powerful Innovations"
+                </p>
+              </div>
+              <a
+                href={achievement.mediumArticleUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold text-white bg-rose-600 hover:bg-rose-500 transition-colors shadow-md shrink-0"
+              >
+                <span>Read Article</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
             </div>
           )}
 

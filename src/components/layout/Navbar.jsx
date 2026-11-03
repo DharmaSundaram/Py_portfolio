@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Star, PlusCircle, Menu, X, Download, FileText, Sparkles, Camera, CheckCircle2 } from 'lucide-react';
+import { Star, PlusCircle, Menu, X, Download, FileText, Sparkles, Camera, CheckCircle2, BookOpen } from 'lucide-react';
 
 export default function Navbar({
   onAddStar,
@@ -119,6 +119,17 @@ export default function Navbar({
 
           {/* Desktop Right Actions */}
           <div className="hidden md:flex items-center gap-2.5">
+            <a
+              href="https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-rose-300 bg-rose-500/10 hover:bg-rose-500/20 rounded-xl border border-rose-500/30 transition-colors"
+              title="Read Dharma's published article in Python in Plain English on Medium"
+            >
+              <BookOpen className="w-3.5 h-3.5 text-rose-400" />
+              <span>Medium Blog</span>
+            </a>
+
             <button
               onClick={() => scrollTo('evidence')}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-amber-300 bg-amber-500/10 hover:bg-amber-500/20 rounded-xl border border-amber-500/30 transition-colors"
@@ -195,6 +206,17 @@ export default function Navbar({
             ))}
 
             <div className="pt-3 mt-2 border-t border-white/10 flex flex-col gap-2">
+              <a
+                href="https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center gap-2 px-4 py-2 text-sm text-rose-300 hover:text-white rounded-xl bg-rose-500/10 border border-rose-500/25"
+              >
+                <BookOpen className="w-4 h-4 text-rose-400" />
+                <span>Medium Article: Python Innovations</span>
+              </a>
+
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);

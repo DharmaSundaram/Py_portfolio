@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Edit3, Target, Sparkles, CheckCircle2, ArrowUpRight, Lightbulb, Compass } from 'lucide-react';
+import { User, Edit3, Target, Sparkles, CheckCircle2, ArrowUpRight, Lightbulb, Compass, BookOpen, ExternalLink } from 'lucide-react';
 
 export default function AboutMeSection({
   profile,
@@ -75,6 +75,60 @@ export default function AboutMeSection({
             <p className="text-sm sm:text-base text-slate-200 leading-relaxed">
               {profile.bio || "Passionate student learning Python fundamentals, data structures, and real-world scripting."}
             </p>
+          </div>
+        </div>
+
+        {/* Featured Technical Publication: Python in Plain English (Medium) */}
+        <div className="glass-panel p-6 sm:p-8 rounded-3xl border border-rose-500/30 bg-gradient-to-br from-rose-950/25 via-[#0d1227]/90 to-purple-950/25 mb-8 relative overflow-hidden shadow-2xl">
+          {/* Subtle background glow */}
+          <div className="absolute top-0 right-0 w-80 h-80 bg-rose-500/10 rounded-full blur-3xl pointer-events-none" />
+
+          <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+            <div className="space-y-3 max-w-3xl">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>Featured Publication on Medium</span>
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono bg-white/5 text-slate-300 border border-white/10">
+                  Python in Plain English
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                  ⭐ 4 min read
+                </span>
+              </div>
+
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-white tracking-tight leading-snug">
+                Python: The Language That Turns Simple Ideas into Powerful Innovations
+              </h3>
+
+              <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+                Authored by Dharma on Medium's <em>Python in Plain English</em>. Explores how Python's clean, human-readable syntax eliminates friction—enabling students and developers to transform raw ideas into production systems, automated workflows, and cutting-edge Artificial Intelligence breakthroughs.
+              </p>
+
+              <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
+                <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/5">💡 Human-Centric Syntax</span>
+                <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/5">⚡ Rapid Prototyping</span>
+                <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/5">🤖 AI & Data Science</span>
+                <span className="px-2.5 py-1 rounded-lg bg-white/5 text-slate-300 border border-white/5">🚀 Democratizing Tech</span>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row lg:flex-col gap-3 shrink-0 w-full sm:w-auto">
+              <a
+                href={profile?.mediumUrl || "https://medium.com/python-in-plain-english/python-the-language-that-turns-simple-ideas-into-powerful-innovations-7ea7788120a4"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl text-sm font-bold text-white bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 hover:from-rose-500 hover:to-purple-500 shadow-lg shadow-rose-600/30 hover:scale-[1.02] transition-all"
+              >
+                <span>Read on Medium</span>
+                <ArrowUpRight className="w-4 h-4" />
+              </a>
+
+              <div className="text-center lg:text-left text-[11px] text-slate-400 font-mono">
+                Companion to Tech Speech & Lab Work
+              </div>
+            </div>
           </div>
         </div>
 

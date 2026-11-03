@@ -29,17 +29,17 @@ export default function PhotoEvidenceGallery() {
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-semibold mb-3">
             <Camera className="w-4 h-4 text-amber-400" />
-            <span>Primary Source Documentation</span>
+            <span>Course Photographs & Evidence Records</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            My Course Notebook Records
+            My Course Photographs & Evidence Records
           </h2>
           <p className="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
-            Authentic, unedited photographs of my handwritten course notebook documenting Sharmila Banu Mam's signatures, star awards, physical star stickers, and the personal commendation message: <span className="text-amber-300 font-bold">"Good Job DHARMA!"</span>
+            Authentic, unedited photographs of my handwritten course notebook documenting Sharmila Banu Mam's star evaluations, physical star stickers, personal commendation message <span className="text-amber-300 font-bold">"Good Job DHARMA!"</span>, classroom quiz events, and lab storytelling presentations.
           </p>
         </div>
 
-        {/* Course Notebook Photos Grid (2 Pages Side-by-Side) */}
+        {/* Course Notebook & Event Photos Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {NOTEBOOK_EVIDENCE_PHOTOS.map((photo) => (
             <div
@@ -103,22 +103,65 @@ export default function PhotoEvidenceGallery() {
                 <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mt-4">
                   {photo.caption}
                 </p>
+
+                {photo.id === 'photo-4' && (
+                  <div className="mt-3.5">
+                    <a
+                      href="#project-demo"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 border border-emerald-500/30 text-xs font-semibold transition-colors"
+                    >
+                      <Play className="w-3.5 h-3.5 fill-emerald-400 text-emerald-400" />
+                      <span>Watch Circular E-Waste Demo Video</span>
+                    </a>
+                  </div>
+                )}
+
+                {photo.id === 'photo-5' && (
+                  <div className="mt-3.5">
+                    <a
+                      href="#assistive-vision"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-purple-500/20 hover:bg-purple-500/30 text-purple-200 border border-purple-500/40 text-xs font-semibold transition-colors shadow-lg shadow-purple-500/10"
+                    >
+                      <Eye className="w-3.5 h-3.5 text-purple-300" />
+                      <span>Explore Interactive Neural Vision Showcase & Phosphene Simulator</span>
+                    </a>
+                  </div>
+                )}
               </div>
 
               {/* Photo Metrics Footer */}
               <div className="grid grid-cols-3 gap-2 pt-4 border-t border-white/10 mt-5 text-center text-xs">
-                <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
-                  <span className="text-[10px] uppercase font-mono text-slate-400 block">Covered Records</span>
-                  <span className="font-bold text-white font-mono mt-0.5 block">{photo.recordsCovered} Entries</span>
-                </div>
-                <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
-                  <span className="text-[10px] uppercase font-mono text-slate-400 block">Stars Counted</span>
-                  <span className="font-bold text-amber-400 font-mono mt-0.5 block">{photo.starsCounted} ⭐</span>
-                </div>
-                <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
-                  <span className="text-[10px] uppercase font-mono text-slate-400 block">Gem Stickers</span>
-                  <span className="font-bold text-purple-300 font-mono mt-0.5 block">{photo.stickersCounted} Stickers</span>
-                </div>
+                {photo.metricLabels ? (
+                  <>
+                    <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                      <span className="text-[10px] uppercase font-mono text-slate-400 block">{photo.metricLabels.m1Title}</span>
+                      <span className="font-bold text-white font-mono mt-0.5 block truncate">{photo.metricLabels.m1Value}</span>
+                    </div>
+                    <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                      <span className="text-[10px] uppercase font-mono text-slate-400 block">{photo.metricLabels.m2Title}</span>
+                      <span className="font-bold text-amber-400 font-mono mt-0.5 block truncate">{photo.metricLabels.m2Value}</span>
+                    </div>
+                    <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                      <span className="text-[10px] uppercase font-mono text-slate-400 block">{photo.metricLabels.m3Title}</span>
+                      <span className="font-bold text-purple-300 font-mono mt-0.5 block truncate">{photo.metricLabels.m3Value}</span>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                      <span className="text-[10px] uppercase font-mono text-slate-400 block">Covered Records</span>
+                      <span className="font-bold text-white font-mono mt-0.5 block">{photo.recordsCovered} Entries</span>
+                    </div>
+                    <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                      <span className="text-[10px] uppercase font-mono text-slate-400 block">Stars Counted</span>
+                      <span className="font-bold text-amber-400 font-mono mt-0.5 block">{photo.starsCounted} ⭐</span>
+                    </div>
+                    <div className="p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                      <span className="text-[10px] uppercase font-mono text-slate-400 block">Gem Stickers</span>
+                      <span className="font-bold text-purple-300 font-mono mt-0.5 block">{photo.stickersCounted} Stickers</span>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           ))}

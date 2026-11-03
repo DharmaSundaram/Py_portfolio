@@ -38,7 +38,7 @@ export default function Navbar({
 
   const navLinks = [
     { id: 'home', label: 'Home' },
-    { id: 'evidence', label: 'Notebook Photos' },
+    { id: 'evidence', label: 'Course Photos' },
     { id: 'project-demo', label: 'Project Demo' },
     { id: 'assistive-vision', label: 'Neural Vision' },
     { id: 'achievements', label: 'Achievements' },
@@ -148,10 +148,10 @@ export default function Navbar({
             <button
               onClick={() => scrollTo('evidence')}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-amber-300 bg-amber-500/10 hover:bg-amber-500/20 rounded-xl border border-amber-500/30 transition-colors"
-              title="Inspect handwritten notebook photos"
+              title="Inspect course photographs and evidence records"
             >
               <Camera className="w-3.5 h-3.5 text-amber-400" />
-              <span>Notebook Photos</span>
+              <span>Course Photos</span>
             </button>
 
             <button

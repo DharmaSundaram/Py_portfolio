@@ -169,7 +169,7 @@ export default function Hero({
                 className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold text-amber-300 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 transition-colors"
               >
                 <Camera className="w-3.5 h-3.5" />
-                <span>View Notebook Photos</span>
+                <span>View Course Photos</span>
               </a>
 
               <button
@@ -278,7 +278,7 @@ export default function Hero({
             className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-slate-200 hover:text-white glass-panel hover:bg-white/10 border border-white/10 transition-all flex items-center gap-2"
           >
             <Camera className="w-4 h-4 text-amber-400" />
-            <span>Notebook Photos (2 Pages)</span>
+            <span>Course Photos & Events (5 Items)</span>
           </a>
 
           <button

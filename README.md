@@ -25,11 +25,31 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
    - Signed by **Sharmila Banu Mam (JSh)** on `16/10/2026`.
    - **Total Stars on Page 2**: 3 Stars (2 + 1).
 
+3. **First Classroom Quiz Event** (`/evidence/first_quiz_event.png`):
+   - Interactive classroom quiz round conducted by Sharmila Banu Mam (`1 ★`).
+
+4. **Advance Python Project Storytelling Event: Circular E-Waste Recovery & Refurbishment Intelligence Platform** (`/evidence/story_tell_event.png`):
+   - **Project Walkthrough & Workstation Storytelling** (`2 ★s`) reviewed by Sharmila Banu Mam.
+   - **Application 1: Collection & Recovery (Lead)**: NIDEESH C G (`23MIC0092`)
+     - Live App: [e-waste-recovery-system-sand.vercel.app](https://e-waste-recovery-system-sand.vercel.app/)
+     - GitHub: [Nideesh-CG/E-waste-Recovery-System](https://github.com/Nideesh-CG/E-waste-Recovery-System.git)
+   - **Application 2: Refurbishment Intelligence**: Dharma S (`23MIC0104`)
+     - Live App: [circular-refurbishment-intelligence.vercel.app](https://circular-refurbishment-intelligence.vercel.app/)
+     - GitHub: [DharmaSundaram/circular-refurbishment-intelligences](https://github.com/DharmaSundaram/circular-refurbishment-intelligences.git)
+   - **Official Presentation Deck**: `e-waste-presentation.pptx` (`/docs/e-waste-presentation.pptx`)
+   - **Video Walkthrough**: `project_demo.mp4` (`/videos/project_demo.mp4`)
+
+5. **Theory Class Innovation: Camera-Based Artificial Vision System for Visually Impaired** (`/evidence/artificial_vision_neural_implant.jpg`):
+   - **Classroom Challenge Prompt**: Sharmila Banu Mam challenged the class: *"How can you help impaired persons?"*
+   - **Our Solution**: Camera-Based Artificial Vision System with Visual Cortex Neural Implant (**Option A: Bypassing damaged eye and optic nerve to stimulate the visual cortex**).
+   - **Architecture**: Smart glasses camera + AI edge & feature extraction encoder + transcutaneous wireless RF/inductive link + occipital lobe (V1/V2/V3) micro-electrode array + cortical phosphene pattern perception.
+   - **Recognition**: Awarded `3 ★s` for biomedical AI innovation and compassionate engineering.
+
 ### Grand Totals (Calculated from Real Records):
-- **Total Confirmed Stars**: **14 ⭐**
-- **Total Achievement Records**: **8 Records**
+- **Total Confirmed Stars**: **20 ⭐**
+- **Total Achievement Records**: **11 Documented Records**
 - **Physical Gem Stickers Awarded**: **5 Stickers** (3 Pink + 2 Green)
-- **Verified Commendations**: `"Good Job DHARMA!"` & `"Good!"` (from Sharmila Banu Mam)
+- **Verified Commendations**: `"Good Job DHARMA!"`, `"Good!"`, and Special Theory Innovation Recognition from Sharmila Banu Mam
 
 ---
 
@@ -43,12 +63,25 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
 - **Python Topics Learned**: Progress tracker across semester competencies.
 - **Profile Customization**: Student name (default **Dharma**), institution, and semester.
 
-### 2. My Notebook Photographs (Photo Gallery)
-- High-resolution display of both original notebook photographs.
+### 2. My Course Photographs & Evidence Records
+- High-resolution display of original notebook photographs, classroom quiz events, computer lab storytelling sessions, and theory class engineering diagrams.
 - **Full-Screen Interactive Inspection Modal** with zoom in, zoom out, and pan controls.
 - Detailed captions linking each photo to its corresponding entries.
 
-### 3. Star Achievement Gallery
+### 3. Theory Class Innovation: Assistive Neural Vision System
+- Dedicated showcase for the solution presented when Sharmila Banu Mam asked: *"How can you help impaired persons?"*
+- **Interactive 5-Stage Architecture Pipeline**:
+  1. External Image Capture (Smart Glasses)
+  2. Image Preprocessing & AI Encoder (Edge & Feature Detection)
+  3. Wireless Neural Interface (RF Inductive Telemetry & Biphasic Pulses)
+  4. Visual Cortex Neural Implant (Occipital Lobe V1/V2/V3 Micro-Electrode Array)
+  5. Perceived Visual Experience (Cortical Phosphene Matrix)
+- **Live Phosphene Perception Simulator Widget**:
+  - Toggle between Real Camera Scene, AI Edge Contours, and Simulated Phosphene Vision.
+  - Interactive electrode density controls (10x10, 16x16, 24x24), luminance slider, and live neural pulse animation.
+- **Python Simulation Code**: Complete runnable NumPy simulation of the cortical encoder (`simulate_visual_cortex_encoder.py`).
+
+### 4. Star Achievement Gallery
 - Individual glassmorphism cards for all 8 records.
 - Visual gold star display (1 to 5 stars).
 - Gem sticker badges (`✨ 3 Pink Stickers`, `✨ 2 Green Stickers`).

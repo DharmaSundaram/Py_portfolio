@@ -4,6 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Hero from './components/layout/Hero';
 import PhotoEvidenceGallery from './components/evidence/PhotoEvidenceGallery';
 import ProjectVideoSection from './components/video/ProjectVideoSection';
+import AssistiveVisionSection from './components/innovations/AssistiveVisionSection';
 import AchievementGallery from './components/achievements/AchievementGallery';
 import AchievementModal from './components/achievements/AchievementModal';
 import AchievementDetailModal from './components/achievements/AchievementDetailModal';
@@ -185,8 +186,8 @@ export default function App() {
   const handleResetToDefaults = () => {
     setConfirmDialog({
       isOpen: true,
-      title: 'Restore Notebook Records?',
-      message: 'This will restore the 8 authentic notebook achievement records and topics extracted from your photographs.',
+      title: 'Restore Notebook & Theory Records?',
+      message: 'This will restore all authentic notebook achievements, theory innovation designs (Assistive Neural Vision), and syllabus topics.',
       confirmText: 'Restore Defaults',
       isDestructive: false,
       onConfirm: () => {
@@ -320,7 +321,10 @@ export default function App() {
           {/* 3. Project Video Demo Showcase */}
           <ProjectVideoSection />
 
-          {/* 4. Star Achievement Gallery */}
+          {/* 4. Theory Class Innovation: Artificial Vision System for Visually Impaired */}
+          <AssistiveVisionSection />
+
+          {/* 5. Star Achievement Gallery */}
           <AchievementGallery
             achievements={achievements}
             onAddStar={handleOpenAddAchievement}

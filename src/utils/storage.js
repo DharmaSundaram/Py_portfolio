@@ -64,6 +64,13 @@ export function getStoredAchievements() {
           .replace(/Special faculty commendation/gi, 'Special commendation from Sharmila Banu Mam');
         hasChanged = true;
       }
+      if (updated.id === 'nb-story-01' && updated.title && !updated.title.includes('Circular E-Waste')) {
+        const freshStory = REAL_NOTEBOOK_ACHIEVEMENTS.find(r => r.id === 'nb-story-01');
+        if (freshStory) {
+          updated = { ...updated, ...freshStory };
+          hasChanged = true;
+        }
+      }
       return updated;
     });
 
@@ -132,8 +139,21 @@ export function saveProfile(profile) {
 export function getStoredTopics() {
   const saved = safeGetItem(STORAGE_KEYS.TOPICS, null);
   if (saved && Array.isArray(saved) && saved.length > 0) {
-    return saved;
+    let hasChanged = false;
+    const migrated = [...saved];
+    NOTEBOOK_PYTHON_TOPICS.forEach(defaultTopic => {
+      const exists = migrated.some(t => t.id === defaultTopic.id);
+      if (!exists) {
+        migrated.push(defaultTopic);
+        hasChanged = true;
+      }
+    });
+    if (hasChanged) {
+      safeSetItem(STORAGE_KEYS.TOPICS, migrated);
+    }
+    return migrated;
   }
+  safeSetItem(STORAGE_KEYS.TOPICS, NOTEBOOK_PYTHON_TOPICS);
   return NOTEBOOK_PYTHON_TOPICS;
 }
 

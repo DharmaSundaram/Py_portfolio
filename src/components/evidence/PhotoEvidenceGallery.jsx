@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Camera, ZoomIn, ZoomOut, Maximize2, X, CheckCircle2, Calendar, FileText, Sparkles, ExternalLink, Play } from 'lucide-react';
+import { Camera, ZoomIn, ZoomOut, Maximize2, X, CheckCircle2, Calendar, FileText, Sparkles, ExternalLink, Play, Eye } from 'lucide-react';
 import { NOTEBOOK_EVIDENCE_PHOTOS } from '../../utils/realNotebookData';
 
 export default function PhotoEvidenceGallery() {
@@ -35,7 +35,7 @@ export default function PhotoEvidenceGallery() {
             My Course Photographs & Notebook Records
           </h2>
           <p className="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
-            Authentic, unedited photographs of classroom quiz events, computer lab storytelling sessions, and handwritten course notebook documenting Sharmila Banu Mam's signatures, star awards, physical star stickers, and the personal commendation message: <span className="text-amber-300 font-bold">"Good Job DHARMA!"</span>
+            Authentic, unedited photographs of classroom quiz events, computer lab storytelling sessions, theory class assistive AI design diagrams, and handwritten course notebook documenting Sharmila Banu Mam's signatures, star awards, physical star stickers, and the personal commendation message: <span className="text-amber-300 font-bold">"Good Job DHARMA!"</span>
           </p>
         </div>
 
@@ -108,10 +108,22 @@ export default function PhotoEvidenceGallery() {
                   <div className="mt-3.5">
                     <a
                       href="#project-demo"
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 text-xs font-semibold transition-colors"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 border border-emerald-500/30 text-xs font-semibold transition-colors"
                     >
-                      <Play className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                      <span>Watch Project Demo Video</span>
+                      <Play className="w-3.5 h-3.5 fill-emerald-400 text-emerald-400" />
+                      <span>Watch Circular E-Waste Demo Video</span>
+                    </a>
+                  </div>
+                )}
+
+                {photo.id === 'photo-5' && (
+                  <div className="mt-3.5">
+                    <a
+                      href="#assistive-vision"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-purple-500/20 hover:bg-purple-500/30 text-purple-200 border border-purple-500/40 text-xs font-semibold transition-colors shadow-lg shadow-purple-500/10"
+                    >
+                      <Eye className="w-3.5 h-3.5 text-purple-300" />
+                      <span>Explore Interactive Neural Vision Showcase & Phosphene Simulator</span>
                     </a>
                   </div>
                 )}

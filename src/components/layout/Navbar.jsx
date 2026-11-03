@@ -5,8 +5,8 @@ export default function Navbar({
   onAddStar,
   onOpenExportImport,
   onOpenReport,
-  totalStars = 14,
-  achievementCount = 8
+  totalStars = 20,
+  achievementCount = 9
 }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ export default function Navbar({
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'evidence', 'project-demo', 'achievements', 'timeline', 'why-stars', 'skills', 'faculty', 'analytics', 'about'];
+      const sections = ['home', 'evidence', 'project-demo', 'assistive-vision', 'achievements', 'timeline', 'why-stars', 'skills', 'faculty', 'analytics', 'about'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -40,6 +40,7 @@ export default function Navbar({
     { id: 'home', label: 'Home' },
     { id: 'evidence', label: 'Course Photos' },
     { id: 'project-demo', label: 'Project Demo' },
+    { id: 'assistive-vision', label: 'Neural Vision' },
     { id: 'achievements', label: 'Achievements' },
     { id: 'timeline', label: 'Timeline' },
     { id: 'why-stars', label: 'Why Stars' },

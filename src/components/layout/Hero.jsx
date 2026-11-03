@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, Award, CheckCircle2, TrendingUp, Edit3, ArrowDown, Sparkles, BookOpen, User, AlertCircle, Camera, Video, Play } from 'lucide-react';
+import { Star, Award, CheckCircle2, TrendingUp, Edit3, ArrowDown, Sparkles, BookOpen, User, AlertCircle, Camera, Video, Play, Eye } from 'lucide-react';
 
 export default function Hero({
   profile,
@@ -38,7 +38,7 @@ export default function Hero({
       color: 'from-amber-400 to-yellow-500',
       glow: 'shadow-amber-500/20',
       textColor: 'text-amber-400',
-      subtext: pendingVerification > 0 ? `${pendingVerification} pending review` : 'All 8 records verified'
+      subtext: pendingVerification > 0 ? `${pendingVerification} pending review` : `All ${totalRecords} records verified`
     },
     {
       id: 'records',
@@ -207,10 +207,18 @@ export default function Hero({
           <a
             href="#project-demo"
             onClick={onViewVideo}
-            className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-amber-300 hover:text-white glass-panel hover:bg-white/10 border border-amber-500/30 transition-all flex items-center gap-2"
+            className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-emerald-300 hover:text-white glass-panel hover:bg-emerald-500/15 border border-emerald-500/30 transition-all flex items-center gap-2"
           >
-            <Video className="w-4 h-4 text-amber-400" />
-            <span>Watch Project Demo</span>
+            <Video className="w-4 h-4 text-emerald-400" />
+            <span>Circular E-Waste Demo</span>
+          </a>
+
+          <a
+            href="#assistive-vision"
+            className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-purple-300 hover:text-white glass-panel hover:bg-purple-500/20 border border-purple-500/40 transition-all flex items-center gap-2 shadow-lg shadow-purple-500/10"
+          >
+            <Eye className="w-4 h-4 text-purple-400" />
+            <span>Theory Vision Solution</span>
           </a>
 
           <a
@@ -219,7 +227,7 @@ export default function Hero({
             className="px-6 py-3.5 rounded-2xl text-sm sm:text-base font-semibold text-slate-200 hover:text-white glass-panel hover:bg-white/10 border border-white/10 transition-all flex items-center gap-2"
           >
             <Camera className="w-4 h-4 text-amber-400" />
-            <span>Course Photos (4 Events)</span>
+            <span>Course Photos & Designs (5 Items)</span>
           </a>
 
           <button

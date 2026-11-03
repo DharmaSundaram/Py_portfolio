@@ -75,7 +75,7 @@ export default function Footer({
               <li>
                 <a href="#evidence" className="hover:text-amber-300 transition-colors flex items-center gap-1">
                   <Camera className="w-3 h-3 text-amber-400" />
-                  <span>Course Photos & Evidence</span>
+                  <span>Course Photographs</span>
                 </a>
               </li>
               <li>

@@ -29,10 +29,10 @@ export default function PhotoEvidenceGallery() {
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-semibold mb-3">
             <Camera className="w-4 h-4 text-amber-400" />
-            <span>Course Photographs & Evidence Records</span>
+            <span>My Course Photographs</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            My Course Photographs & Evidence Records
+            My Course Photographs
           </h2>
           <p className="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
             Authentic, unedited photographs of my handwritten course notebook documenting Sharmila Banu Mam's star evaluations, physical star stickers, personal commendation message <span className="text-amber-300 font-bold">"Good Job DHARMA!"</span>, classroom quiz events, and lab storytelling presentations.

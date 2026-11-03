@@ -78,7 +78,7 @@ This portfolio is anchored to authentic handwritten notebook evaluations:
 - **Python Topics Learned**: Progress tracker across semester competencies.
 - **Profile Customization**: Student name (default **Dharma**), institution, and semester.
 
-### 2. My Course Photographs & Evidence Records
+### 2. My Course Photographs
 - High-resolution display of original notebook photographs, classroom quiz events, computer lab storytelling sessions, and theory class engineering diagrams.
 - **Full-Screen Interactive Inspection Modal** with zoom in, zoom out, and pan controls.
 - Detailed captions linking each photo to its corresponding entries.
